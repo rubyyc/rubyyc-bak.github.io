@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>rubyc.cn/angular/index.html</loc>
+    <loc>rubyc.cn/2018/09/28/js/</loc>
     
-    <lastmod>2018-09-28T12:31:41.125Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>rubyc.cn/css/index.html</loc>
-    
-    <lastmod>2018-09-28T12:31:41.120Z</lastmod>
+    <lastmod>2018-09-28T12:37:07.224Z</lastmod>
     
   </url>
   
   <url>
-    <loc>rubyc.cn/db/index.html</loc>
+    <loc>rubyc.cn/2018/09/28/css/</loc>
     
-    <lastmod>2018-09-28T12:30:51.764Z</lastmod>
+    <lastmod>2018-09-28T12:37:07.220Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>rubyc.cn/2018/09/28/angular/</loc>
+    
+    <lastmod>2018-09-28T12:37:07.218Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>rubyc.cn/2018/09/28/html/</loc>
+    
+    <lastmod>2018-09-28T12:37:07.214Z</lastmod>
     
   </url>
   
