@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>rubyc.cn/db/index.html</loc>
+    
+    <lastmod>2018-09-28T12:29:39.290Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>rubyc.cn/2018/09/26/Rails%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     
     <lastmod>2018-09-28T12:27:58.347Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>rubyc.cn/angular/index.html</loc>
     
     <lastmod>2018-09-28T12:27:58.342Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>rubyc.cn/db/index.html</loc>
-    
-    <lastmod>2018-09-28T12:27:58.339Z</lastmod>
     
   </url>
   
