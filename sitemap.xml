@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>rubyc.cn/guestbook/index.html</loc>
+    
+    <lastmod>2018-09-28T01:47:24.105Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>rubyc.cn/schedule/index.html</loc>
     
     <lastmod>2018-09-27T10:23:14.844Z</lastmod>
