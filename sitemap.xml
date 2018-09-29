@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>rubyc.cn/tags/index.html</loc>
+    
+    <lastmod>2018-09-29T02:00:12.157Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>rubyc.cn/2018/09/28/js/</loc>
     
     <lastmod>2018-09-28T12:37:07.224Z</lastmod>
@@ -75,13 +82,6 @@
     <loc>rubyc.cn/schedule/index.html</loc>
     
     <lastmod>2018-09-27T10:23:14.844Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>rubyc.cn/tags/index.html</loc>
-    
-    <lastmod>2018-09-27T10:18:40.531Z</lastmod>
     
   </url>
   
