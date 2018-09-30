@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://rubyc.cn/about/index.html</loc>
+    
+    <lastmod>2018-09-30T11:27:56.487Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://rubyc.cn/guestbook/index.html</loc>
+    
+    <lastmod>2018-09-30T11:27:56.481Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://rubyc.cn/categories/index.html</loc>
+    
+    <lastmod>2018-09-30T11:27:56.477Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://rubyc.cn/tags/index.html</loc>
     
-    <lastmod>2018-09-29T02:04:25.174Z</lastmod>
+    <lastmod>2018-09-30T11:27:56.472Z</lastmod>
     
   </url>
   
@@ -72,30 +93,9 @@
   </url>
   
   <url>
-    <loc>https://rubyc.cn/guestbook/index.html</loc>
-    
-    <lastmod>2018-09-28T01:47:24.105Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://rubyc.cn/schedule/index.html</loc>
     
     <lastmod>2018-09-27T10:23:14.844Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://rubyc.cn/categories/index.html</loc>
-    
-    <lastmod>2018-09-27T10:09:01.070Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://rubyc.cn/about/index.html</loc>
-    
-    <lastmod>2018-09-27T10:06:57.443Z</lastmod>
     
   </url>
   
