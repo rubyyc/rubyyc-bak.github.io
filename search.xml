@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Rails常用命令]]></title>
+    <title></title>
     <url>%2F2018%2F10%2F10%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Rails启动1$ rails s 生成控制器 + 动作1$ rails g controller Welcome(控制器) index(动作) REST资源生成在route.rb中添加resource :articles生成资源路由1$ rails routes]]></content>
+    <content type="text"></content>
   </entry>
   <entry>
     <title><![CDATA[js]]></title>
@@ -52,7 +52,7 @@
   <entry>
     <title><![CDATA[Rails常用命令]]></title>
     <url>%2F2018%2F09%2F26%2FRails%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
-    <content type="text"><![CDATA[Rails 常用命令]]></content>
+    <content type="text"><![CDATA[Rails启动1$ rails s 生成控制器 + 动作1$ rails g controller Welcome(控制器) index(动作) REST资源生成在route.rb中添加resource :articles生成资源路由1$ rails routes]]></content>
       <categories>
         <category>Rails</category>
       </categories>
