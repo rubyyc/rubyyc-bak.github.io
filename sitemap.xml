@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://rubyc.cn/book/index.html</loc>
+    
+    <lastmod>2018-10-12T12:33:56.212Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://rubyc.cn/2018/09/26/Rails%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     
     <lastmod>2018-10-12T07:25:36.263Z</lastmod>
