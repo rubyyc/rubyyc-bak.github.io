@@ -57,7 +57,7 @@
   <entry>
     <title><![CDATA[Rails常用命令]]></title>
     <url>%2F2018%2F09%2F26%2FRails%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
-    <content type="text"><![CDATA[1.Rails启动1$ rails s 2.生成控制器 + 动作1$ rails g controller Welcome(控制器) index(动作) 3.REST资源生成在route.rb中添加resource :articles生成资源路由1$ rails routes 4.创建模型1$ rails g model Article(模型名称) title:string text:text 5.运行迁移1$ rails db:migrate 6.在其他环境运行迁移，如生产环境1$ rails db:migrate RAILS_ENV=production]]></content>
+    <content type="text"><![CDATA[1.Rails启动1$ rails s 2.生成控制器 + 动作1$ rails g controller Welcome(控制器) index(动作) 3.REST资源生成在route.rb中添加resource :articles生成资源路由1$ rails routes 4.创建模型1$ rails g model Article(模型名称) title:string text:text 5.运行迁移1$ rails db:migrate 6.在其他环境运行迁移，如生产环境1$ rails db:migrate RAILS_ENV=production 完。]]></content>
       <categories>
         <category>Rails</category>
       </categories>
