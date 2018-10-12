@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[hexo中不蒜子404错误解决方案]]></title>
     <url>%2F2018%2F10%2F11%2F%E4%B8%8D%E8%92%9C%E5%AD%90404%E9%94%99%E8%AF%AF%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
-    <content type="text"><![CDATA[今天上博客突然发现网站统计人数的插件，不蒜子出现404错误，然后访问该网址，返回没有此域名的结果，最终到不蒜子官网找到原因 解决方法到themes/next/layout/_third-party/analytics/busuanzi-counter.swig替换一下网址即可]]></content>
+    <content type="text"><![CDATA[今天上博客突然发现网站统计人数的插件，不蒜子出现404错误，然后访问该网址，返回没有此域名的结果，最终到不蒜子官网找到原因 解决方法到themes/next/layout/_third-party/analytics/busuanzi-counter.swig替换一下网址即可 完。]]></content>
       <tags>
         <tag>解决方案 hexo 不蒜子</tag>
       </tags>
