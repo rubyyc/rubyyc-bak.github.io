@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[不蒜子404错误解决方案]]></title>
+    <url>%2F2018%2F10%2F11%2F%E4%B8%8D%E8%92%9C%E5%AD%90404%E9%94%99%E8%AF%AF%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
+    <content type="text"><![CDATA[今天上博客突然发现网站统计人数的插件，不蒜子出现404错误，然后访问该网址，返回没有此域名的结果，最终到不蒜子官网找到原因]]></content>
+      <tags>
+        <tag>解决方案</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[js]]></title>
     <url>%2F2018%2F09%2F28%2Fjs%2F</url>
     <content type="text"></content>
@@ -47,7 +55,7 @@
   <entry>
     <title><![CDATA[Rails常用命令]]></title>
     <url>%2F2018%2F09%2F26%2FRails%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
-    <content type="text"><![CDATA[1.Rails启动1$ rails s 2.生成控制器 + 动作1$ rails g controller Welcome(控制器) index(动作) 3.REST资源生成在route.rb中添加resource :articles生成资源路由1$ rails routes]]></content>
+    <content type="text"><![CDATA[1.Rails启动1$ rails s 2.生成控制器 + 动作1$ rails g controller Welcome(控制器) index(动作) 3.REST资源生成在route.rb中添加resource :articles生成资源路由1$ rails routes 4.创建模型1$ rails g model Article(模型名称) title:string text:text 5.运行迁移1$ rails db:migrate 6.在其他环境运行迁移，如生产环境1$ rails db:migrate RAILS_ENV=production]]></content>
       <categories>
         <category>Rails</category>
       </categories>

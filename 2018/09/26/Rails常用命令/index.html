@@ -86,18 +86,18 @@
 
 
 
-<meta name="description" content="1.Rails启动1$ rails s 2.生成控制器 + 动作1$ rails g controller Welcome(控制器) index(动作) 3.REST资源生成在route.rb中添加resource :articles生成资源路由1$ rails routes">
+<meta name="description" content="1.Rails启动1$ rails s 2.生成控制器 + 动作1$ rails g controller Welcome(控制器) index(动作) 3.REST资源生成在route.rb中添加resource :articles生成资源路由1$ rails routes 4.创建模型1$ rails g model Article(模型名称) title:string text:text 5">
 <meta name="keywords" content="Rails">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Rails常用命令">
 <meta property="og:url" content="https://rubyc.cn/2018/09/26/Rails常用命令/index.html">
 <meta property="og:site_name" content="yuanchang">
-<meta property="og:description" content="1.Rails启动1$ rails s 2.生成控制器 + 动作1$ rails g controller Welcome(控制器) index(动作) 3.REST资源生成在route.rb中添加resource :articles生成资源路由1$ rails routes">
+<meta property="og:description" content="1.Rails启动1$ rails s 2.生成控制器 + 动作1$ rails g controller Welcome(控制器) index(动作) 3.REST资源生成在route.rb中添加resource :articles生成资源路由1$ rails routes 4.创建模型1$ rails g model Article(模型名称) title:string text:text 5">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-10T12:49:42.825Z">
+<meta property="og:updated_time" content="2018-10-11T04:40:55.733Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Rails常用命令">
-<meta name="twitter:description" content="1.Rails启动1$ rails s 2.生成控制器 + 动作1$ rails g controller Welcome(控制器) index(动作) 3.REST资源生成在route.rb中添加resource :articles生成资源路由1$ rails routes">
+<meta name="twitter:description" content="1.Rails启动1$ rails s 2.生成控制器 + 动作1$ rails g controller Welcome(控制器) index(动作) 3.REST资源生成在route.rb中添加resource :articles生成资源路由1$ rails routes 4.创建模型1$ rails g model Article(模型名称) title:string text:text 5">
 
 
 
@@ -432,7 +432,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  45
+                  93
                 </span>
               
 
@@ -472,6 +472,9 @@
         <h3 id="1-Rails启动"><a href="#1-Rails启动" class="headerlink" title="1.Rails启动"></a>1.Rails启动</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rails s</span><br></pre></td></tr></table></figure>
 <h3 id="2-生成控制器-动作"><a href="#2-生成控制器-动作" class="headerlink" title="2.生成控制器 + 动作"></a>2.生成控制器 + 动作</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rails g controller Welcome(控制器) index(动作)</span><br></pre></td></tr></table></figure>
 <h3 id="3-REST资源生成"><a href="#3-REST资源生成" class="headerlink" title="3.REST资源生成"></a>3.REST资源生成</h3><h4 id="在route-rb中添加resource-articles"><a href="#在route-rb中添加resource-articles" class="headerlink" title="在route.rb中添加resource :articles"></a>在route.rb中添加resource :articles</h4><h4 id="生成资源路由"><a href="#生成资源路由" class="headerlink" title="生成资源路由"></a>生成资源路由</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rails routes</span><br></pre></td></tr></table></figure>
+<h3 id="4-创建模型"><a href="#4-创建模型" class="headerlink" title="4.创建模型"></a>4.创建模型</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rails g model Article(模型名称) title:string text:text</span><br></pre></td></tr></table></figure>
+<h3 id="5-运行迁移"><a href="#5-运行迁移" class="headerlink" title="5.运行迁移"></a>5.运行迁移</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rails db:migrate</span><br></pre></td></tr></table></figure>
+<h3 id="6-在其他环境运行迁移，如生产环境"><a href="#6-在其他环境运行迁移，如生产环境" class="headerlink" title="6.在其他环境运行迁移，如生产环境"></a>6.在其他环境运行迁移，如生产环境</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rails db:migrate RAILS_ENV=production</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -616,7 +619,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -638,7 +641,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -687,7 +690,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-Rails启动"><span class="nav-number">1.</span> <span class="nav-text">1.Rails启动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-生成控制器-动作"><span class="nav-number">2.</span> <span class="nav-text">2.生成控制器 + 动作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-REST资源生成"><span class="nav-number">3.</span> <span class="nav-text">3.REST资源生成</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#在route-rb中添加resource-articles"><span class="nav-number">3.1.</span> <span class="nav-text">在route.rb中添加resource :articles</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#生成资源路由"><span class="nav-number">3.2.</span> <span class="nav-text">生成资源路由</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-Rails启动"><span class="nav-number">1.</span> <span class="nav-text">1.Rails启动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-生成控制器-动作"><span class="nav-number">2.</span> <span class="nav-text">2.生成控制器 + 动作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-REST资源生成"><span class="nav-number">3.</span> <span class="nav-text">3.REST资源生成</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#在route-rb中添加resource-articles"><span class="nav-number">3.1.</span> <span class="nav-text">在route.rb中添加resource :articles</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#生成资源路由"><span class="nav-number">3.2.</span> <span class="nav-text">生成资源路由</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-创建模型"><span class="nav-number">4.</span> <span class="nav-text">4.创建模型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-运行迁移"><span class="nav-number">5.</span> <span class="nav-text">5.运行迁移</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-在其他环境运行迁移，如生产环境"><span class="nav-number">6.</span> <span class="nav-text">6.在其他环境运行迁移，如生产环境</span></a></li></ol></div>
             
 
           </div>
@@ -721,7 +724,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">45</span>
+    <span title="Site words total count">148</span>
   
 </div>
 
