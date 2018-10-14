@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Error: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun]]></title>
     <url>%2F2018%2F10%2F14%2FError-xcrun-error-invalid-active-developer-path-Library-Developer-CommandLineTools-missing-xcrun-at-Library-Developer-CommandLineTools-usr-bin-xcrun%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[MacOS下出现如下错误xcrun: error: invalid active developer path(/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun 解决方案1$ xcode-select --install]]></content>
   </entry>
   <entry>
     <title><![CDATA[升级Mojave,出现安装macOS时发生错误或者无法验证macOS]]></title>
