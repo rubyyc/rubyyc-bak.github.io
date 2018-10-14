@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Jetbrains系列产品2018.2.4最新激活方法]]></title>
+    <url>%2F2018%2F10%2F14%2FJetbrains%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%812018-2-4%E6%9C%80%E6%96%B0%E6%BF%80%E6%B4%BB%E6%96%B9%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[1.访问下面的网站，并下载图中所示文件http://idea.lanyus.com/ 2.打开你所用的Jetbrains产品，并按照图中操作创建相关文件 3.编辑刚才创建的文件，然后在最末尾加上 -javaagent:JetbrainsCrack-3.1-release-enc.jar 即可。4.重启5.获取注册码，激活。]]></content>
+      <tags>
+        <tag>Jetbrains</tag>
+        <tag>激活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[hexo中不蒜子404错误解决方案]]></title>
     <url>%2F2018%2F10%2F11%2F%E4%B8%8D%E8%92%9C%E5%AD%90404%E9%94%99%E8%AF%AF%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
     <content type="text"><![CDATA[今天上博客突然发现网站统计人数的插件，不蒜子出现404错误，然后访问该网址，返回没有此域名的结果，最终到不蒜子官网找到原因 解决方法到themes/next/layout/_third-party/analytics/busuanzi-counter.swig替换一下网址即可 完。]]></content>
