@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[升级Mojave,出现安装macOS时发生错误]]></title>
+    <title><![CDATA[Error: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun]]></title>
+    <url>%2F2018%2F10%2F14%2FError-xcrun-error-invalid-active-developer-path-Library-Developer-CommandLineTools-missing-xcrun-at-Library-Developer-CommandLineTools-usr-bin-xcrun%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[升级Mojave,出现安装macOS时发生错误或者无法验证macOS]]></title>
     <url>%2F2018%2F10%2F14%2F%E5%8D%87%E7%BA%A7Mojave-%E5%87%BA%E7%8E%B0%E5%AE%89%E8%A3%85macOS%E6%97%B6%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%2F</url>
-    <content type="text"><![CDATA[升级Mojave,出现安装macOS时发生错误的解决方案 解决方法:系统偏好设置-&gt;网络-&gt;高级-&gt;DNS-&gt;改成8.8.8.8]]></content>
+    <content type="text"><![CDATA[升级Mojave,出现安装macOS时发生错误的解决方案 解决方法:系统偏好设置-&gt;网络-&gt;高级-&gt;DNS-&gt;改成8.8.8.8………………..………………..本以为这样就可以了，然而等了半个小时后还是无法验证macOS，然后上网搜了一堆解决方案，各种设置，重启，重新下载，安全模式等，都是碰巧。从错误提示分析，无法验证xxx，估计网络不好或者信息不匹配，信息不匹配不容易找具体原因，而网络不好估计并不是真正的网络不好，而是要科学上网。科学上网后再升级，一次就完美升级。]]></content>
+      <tags>
+        <tag>Mojave macOS升级 解决方案</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[Jetbrains系列产品2018.2.4最新激活方法]]></title>
