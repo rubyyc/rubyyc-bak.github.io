@@ -75,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="苑畅 苑畅的博客 Ruby Rails" />
+  <meta name="keywords" content="设计模式," />
 
 
 
@@ -86,17 +86,18 @@
 
 
 
-<meta name="description" content="苑畅的博客">
-<meta name="keywords" content="苑畅 Ruby Rails 苑畅的博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="yuanchang">
-<meta property="og:url" content="https://rubyc.cn/categories/js/index.html">
+<meta name="description" content="设计模式1.Singleton（单例）模式用来保证某个类的实例只有一个。如果这个类的实例已存在则返回，不存在则创建。主要作用:作为其他对象的雏形而存在的对象，以及系统全体只存在唯一一个的对象2.Proxy（代理）模式为某个对象提供代理对象的模式。主要作用:某对象的生成代价非常大，如果还不知道是否真正的需要该对象时就事先把它生成，可能带来很大的浪费。">
+<meta name="keywords" content="设计模式">
+<meta property="og:type" content="article">
+<meta property="og:title" content="设计模式">
+<meta property="og:url" content="https://rubyc.cn/2018/10/14/设计模式/index.html">
 <meta property="og:site_name" content="yuanchang">
-<meta property="og:description" content="苑畅的博客">
+<meta property="og:description" content="设计模式1.Singleton（单例）模式用来保证某个类的实例只有一个。如果这个类的实例已存在则返回，不存在则创建。主要作用:作为其他对象的雏形而存在的对象，以及系统全体只存在唯一一个的对象2.Proxy（代理）模式为某个对象提供代理对象的模式。主要作用:某对象的生成代价非常大，如果还不知道是否真正的需要该对象时就事先把它生成，可能带来很大的浪费。">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-10-14T13:00:55.900Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="yuanchang">
-<meta name="twitter:description" content="苑畅的博客">
+<meta name="twitter:title" content="设计模式">
+<meta name="twitter:description" content="设计模式1.Singleton（单例）模式用来保证某个类的实例只有一个。如果这个类的实例已存在则返回，不存在则创建。主要作用:作为其他对象的雏形而存在的对象，以及系统全体只存在唯一一个的对象2.Proxy（代理）模式为某个对象提供代理对象的模式。主要作用:某对象的生成代价非常大，如果还不知道是否真正的需要该对象时就事先把它生成，可能带来很大的浪费。">
 
 
 
@@ -126,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="https://rubyc.cn/categories/js/"/>
+  <link rel="canonical" href="https://rubyc.cn/2018/10/14/设计模式/"/>
 
 
 
 
 
-  <title>分类: js | yuanchang</title>
+  <title>设计模式 | yuanchang</title>
   
 
 
@@ -151,7 +152,7 @@
     
   
 
-  <div class="container sidebar-position-right ">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -329,55 +330,266 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block category">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h2>js<small>分类</small>
-        </h2>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://rubyc.cn/2018/10/14/设计模式/">
 
-      <h3 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="苑畅">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="yuanchang">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2018/09/28/js/" itemprop="url">
-              
-                <span itemprop="name">js</span>
-              
-            </a>
         
-      </h3>
+          <h2 class="post-title" itemprop="name headline">设计模式</h2>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-09-28T20:34:56+08:00"
-              content="2018-09-28" >
-          09-28
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-14T20:30:19+08:00">
+                2018-10-14
+              </time>
+            
 
-    </header>
-  </article>
+            
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-10-14T21:00:55+08:00">
+                2018-10-14
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/10/14/设计模式/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2018/10/14/设计模式/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>阅读数
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  147
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    </div>
+      
 
+      
+        <h3 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a><center>设计模式</center></h3><h3 id="1-Singleton（单例）模式"><a href="#1-Singleton（单例）模式" class="headerlink" title="1.Singleton（单例）模式"></a>1.Singleton（单例）模式</h3><h4 id="用来保证某个类的实例只有一个。如果这个类的实例已存在则返回，不存在则创建。"><a href="#用来保证某个类的实例只有一个。如果这个类的实例已存在则返回，不存在则创建。" class="headerlink" title="用来保证某个类的实例只有一个。如果这个类的实例已存在则返回，不存在则创建。"></a>用来保证某个类的实例只有一个。如果这个类的实例已存在则返回，不存在则创建。</h4><h4 id="主要作用-作为其他对象的雏形而存在的对象，以及系统全体只存在唯一一个的对象"><a href="#主要作用-作为其他对象的雏形而存在的对象，以及系统全体只存在唯一一个的对象" class="headerlink" title="主要作用:作为其他对象的雏形而存在的对象，以及系统全体只存在唯一一个的对象"></a>主要作用:作为其他对象的雏形而存在的对象，以及系统全体只存在唯一一个的对象</h4><h3 id="2-Proxy（代理）模式"><a href="#2-Proxy（代理）模式" class="headerlink" title="2.Proxy（代理）模式"></a>2.Proxy（代理）模式</h3><h4 id="为某个对象提供代理对象的模式。"><a href="#为某个对象提供代理对象的模式。" class="headerlink" title="为某个对象提供代理对象的模式。"></a>为某个对象提供代理对象的模式。</h4><h4 id="主要作用-某对象的生成代价非常大，如果还不知道是否真正的需要该对象时就事先把它生成，可能带来很大的浪费。"><a href="#主要作用-某对象的生成代价非常大，如果还不知道是否真正的需要该对象时就事先把它生成，可能带来很大的浪费。" class="headerlink" title="主要作用:某对象的生成代价非常大，如果还不知道是否真正的需要该对象时就事先把它生成，可能带来很大的浪费。"></a>主要作用:某对象的生成代价非常大，如果还不知道是否真正的需要该对象时就事先把它生成，可能带来很大的浪费。</h4>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>^_^ 打赏一波 ^_^</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/%E5%BE%AE%E4%BF%A1%E4%BB%98%E6%AC%BE%E7%A0%81.png" alt="苑畅 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/%E6%94%AF%E4%BB%98%E5%AE%9D%E4%BB%98%E6%AC%BE%E7%A0%81.jpg" alt="苑畅 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    苑畅
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://rubyc.cn/2018/10/14/设计模式/" title="设计模式">https://rubyc.cn/2018/10/14/设计模式/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/设计模式/" rel="tag"># 设计模式</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div id="needsharebutton-postbottom">
+            <span class="btn">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </span>
+          </div>
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/10/14/Error-xcrun-error-invalid-active-developer-path-Library-Developer-CommandLineTools-missing-xcrun-at-Library-Developer-CommandLineTools-usr-bin-xcrun/" rel="next" title="Error: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun">
+                <i class="fa fa-chevron-left"></i> Error: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -385,6 +597,17 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
+
+  
+
+
 
         </div>
         
@@ -405,8 +628,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -486,6 +718,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#设计模式"><span class="nav-number">1.</span> <span class="nav-text">设计模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-Singleton（单例）模式"><span class="nav-number">2.</span> <span class="nav-text">1.Singleton（单例）模式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#用来保证某个类的实例只有一个。如果这个类的实例已存在则返回，不存在则创建。"><span class="nav-number">2.1.</span> <span class="nav-text">用来保证某个类的实例只有一个。如果这个类的实例已存在则返回，不存在则创建。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#主要作用-作为其他对象的雏形而存在的对象，以及系统全体只存在唯一一个的对象"><span class="nav-number">2.2.</span> <span class="nav-text">主要作用:作为其他对象的雏形而存在的对象，以及系统全体只存在唯一一个的对象</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-Proxy（代理）模式"><span class="nav-number">3.</span> <span class="nav-text">2.Proxy（代理）模式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#为某个对象提供代理对象的模式。"><span class="nav-number">3.1.</span> <span class="nav-text">为某个对象提供代理对象的模式。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#主要作用-某对象的生成代价非常大，如果还不知道是否真正的需要该对象时就事先把它生成，可能带来很大的浪费。"><span class="nav-number">3.2.</span> <span class="nav-text">主要作用:某对象的生成代价非常大，如果还不知道是否真正的需要该对象时就事先把它生成，可能带来很大的浪费。</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -695,6 +943,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -746,6 +998,30 @@
       </style>
     
 
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: '1539520219000',
+            owner: 'yuanchang2018',
+            repo: 'yuanchang2018.github.io',
+            
+            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: 'f40223207f0b7f8791a006cf1044a152342964d7',
+            
+                client_id: 'd8d2c791c4833a108894'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
     
 
 

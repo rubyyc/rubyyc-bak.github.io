@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://rubyc.cn/2018/10/14/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    <lastmod>2018-10-14T13:00:55.900Z</lastmod>
+  </url>  <url>
     <loc>https://rubyc.cn/2018/10/14/Error-xcrun-error-invalid-active-developer-path-Library-Developer-CommandLineTools-missing-xcrun-at-Library-Developer-CommandLineTools-usr-bin-xcrun/</loc>
     <lastmod>2018-10-14T11:11:26.120Z</lastmod>
   </url>  <url>
