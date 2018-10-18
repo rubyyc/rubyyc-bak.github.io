@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[乐观锁与悲观锁]]></title>
+    <url>%2F2018%2F10%2F18%2F%E4%B9%90%E8%A7%82%E9%94%81%E4%B8%8E%E6%82%B2%E8%A7%82%E9%94%81%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[设计模式]]></title>
     <url>%2F2018%2F10%2F14%2F%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%2F</url>
     <content type="text"><![CDATA[设计模式1.Singleton（单例）模式用来保证某个类的实例只有一个。如果这个类的实例已存在则返回，不存在则创建。主要作用:作为其他对象的雏形而存在的对象，以及系统全体只存在唯一一个的对象2.Proxy（代理）模式为某个对象提供代理对象的模式。主要作用:某对象的生成代价非常大，如果还不知道是否真正的需要该对象时就事先把它生成，可能带来很大的浪费。]]></content>

@@ -1,3 +1,4 @@
+https://www.rubyc.cn/2018/10/18/乐观锁与悲观锁/
 https://www.rubyc.cn/2018/10/14/设计模式/
 https://www.rubyc.cn/2018/10/14/Error-xcrun-error-invalid-active-developer-path-Library-Developer-CommandLineTools-missing-xcrun-at-Library-Developer-CommandLineTools-usr-bin-xcrun/
 https://www.rubyc.cn/2018/10/14/升级Mojave-出现安装macOS时发生错误/
