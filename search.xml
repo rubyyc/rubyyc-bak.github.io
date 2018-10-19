@@ -95,7 +95,7 @@
   <entry>
     <title><![CDATA[Rails常用命令]]></title>
     <url>%2F2018%2F09%2F26%2FRails%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
-    <content type="text"><![CDATA[1.Rails启动1$ rails s 2.生成控制器 + 动作1$ rails g controller Welcome(控制器) index(动作) 3.REST资源生成在route.rb中添加resource :articles生成资源路由1$ rails routes 4.创建模型1$ rails g model Article(模型名称) title:string text:text 5.运行迁移1$ rails db:migrate 6.在其他环境运行迁移，如生产环境1$ rails db:migrate RAILS_ENV=production 完。]]></content>
+    <content type="text"><![CDATA[1.Rails启动1$ rails s 2.生成控制器 + 动作1$ rails g controller Welcome(控制器) index(动作) 3.REST资源生成在route.rb中添加resource :articles生成资源路由1$ rails routes 4.创建模型1$ rails g model Article(模型名称) title:string text:text 5.运行迁移1$ rails db:migrate 6.在其他环境运行迁移，如生产环境production,测试环境test1$ rails db:migrate RAILS_ENV=production 7.数据回滚1$ rails db:rollback 8.创建迁移123$ rails g migration AddPartNumberToProducts(AddXXXToYYY或者RemoveXXXFromYYY)$ rails g migration AddPartNumberToProducts part_number:string 9.添加索引1$ rails g migration AddPartNumberToProducts part_number:string:index 10.删除字段1$ rails g migration RemovePartNumberFromProducts part_number:string 11.添加新模型1$ rails g model Product name:string description:text 12.传递修饰符12$ rails g migration AddDetailsToProducts'price:decimal&#123;5,2&#125;' supplier:references&#123;polymorphic&#125; 13.回滚X步1$ rails db:rollback STEP=3 14.回滚最后X个迁移并再次运行迁移1$ rails db:migrate:redo STEP=3 15.安装数据库1$ rails db:setup 16.安装数据库1$ rails db:reset #相当于rails db:drop db:setup 17.运行指定迁移1$ rails db:migrate:up VERSION=xxxxxxxxxxxxxxxx(如20180912120000) 18.种子数据1$ rails db:seed #需先填充db/seed.rb文件]]></content>
       <categories>
         <category>Rails</category>
       </categories>
