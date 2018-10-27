@@ -1,3 +1,4 @@
+https://www.rubyc.cn/2018/10/27/各种查找算法/
 https://www.rubyc.cn/2018/10/26/LeetCode-文章模版/
 https://www.rubyc.cn/2018/10/26/LeetCode-2-两数相加/
 https://www.rubyc.cn/2018/10/24/markdown常用语法/
