@@ -1,3 +1,5 @@
+https://www.rubyc.cn/2018/10/28/LeetCode-4-两个排序数组的中位数/
+https://www.rubyc.cn/2018/10/28/LeetCode-3-无重复字符的最长子串/
 https://www.rubyc.cn/2018/10/27/各种查找算法/
 https://www.rubyc.cn/2018/10/26/LeetCode-文章模版/
 https://www.rubyc.cn/2018/10/26/LeetCode-2-两数相加/
