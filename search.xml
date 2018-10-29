@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[二叉树的遍历与相关应用]]></title>
     <url>%2F2018%2F10%2F29%2F%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86%E4%B8%8E%E7%9B%B8%E5%85%B3%E5%BA%94%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[先序遍历中序遍历后序遍历打印叶子结点求树的高度]]></content>
+    <content type="text"><![CDATA[先序遍历中序遍历后序遍历打印叶子结点求树的高度二元运算表达式树及其遍历]]></content>
   </entry>
   <entry>
     <title><![CDATA[LeetCode 4.两个排序数组的中位数]]></title>
