@@ -18,7 +18,7 @@
   <entry>
     <title><![CDATA[LeetCode 3.无重复字符的最长子串]]></title>
     <url>%2F2018%2F10%2F28%2FLeetCode-3-%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[题目给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。 示例 1: 输入: “abcabcbb”输出: 3解释: 因为无重复字符的最长子串是 “abc”，所以其长度为 3。示例 2: 输入: “bbbbb”输出: 1解释: 因为无重复字符的最长子串是 “b”，所以其长度为 1。示例 3: 输入: “pwwkew”输出: 3解释: 因为无重复字符的最长子串是 “wke”，所以其长度为 3。 请注意，你的答案必须是 子串 的长度，”pwke” 是一个子序列，不是子串。 C++版12345678910111213141516171819202122232425262728293031323334353637#include &lt;iostream&gt;#include &lt;string&gt;#include &lt;vector&gt;using namespace std;class Solution &#123;public: int lengthOfLongestSubstring(string s) &#123; int r = -1; int l = 0; int freq[256] = &#123;0&#125;; int res = 0; while( l &lt; s.length() ) &#123; if(r + 1 &lt; s.length() &amp;&amp; freq[s[r+1]] == 0) &#123; freq[s[++r]]++; &#125;else&#123; freq[s[l++]]--; &#125; res = max(r - l + 1 , res); &#125; return res; &#125;&#125;;int main() &#123; Solution *s = new Solution(); cout&lt;&lt;s-&gt;lengthOfLongestSubstring("abcabcbb")&lt;&lt;endl; return 0;&#125;]]></content>
   </entry>
   <entry>
     <title><![CDATA[各种查找算法]]></title>
