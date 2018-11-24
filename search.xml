@@ -13,7 +13,7 @@
   <entry>
     <title><![CDATA[LeetCode 4.两个排序数组的中位数]]></title>
     <url>%2F2018%2F10%2F28%2FLeetCode-4-%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[题目给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。 请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。 你可以假设 nums1 和 nums2 不会同时为空。 示例 1: nums1 = [1, 3]nums2 = [2] 则中位数是 2.0示例 2: nums1 = [1, 2]nums2 = [3, 4] 则中位数是 (2 + 3)/2 = 2.5 C++版12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455#include &lt;iostream&gt;#include &lt;vector&gt;using namespace std;class Solution &#123;public: double findMedianSortedArrays(vector&lt;int&gt;&amp; nums1, vector&lt;int&gt;&amp; nums2) &#123; vector&lt;int&gt; nums3; int i = 0; int j = 0; double res; while( i &lt; nums1.size() &amp;&amp; j &lt; nums2.size()) &#123; if(nums1[i] &lt; nums2[j]) &#123; nums3.push_back(nums1[i]); i++; &#125;else&#123; nums3.push_back(nums2[j]); j++; &#125; &#125; for (int k = i; k &lt; nums1.size(); ++k) &#123; nums3.push_back(nums1[k]); &#125; for (int l = j; l &lt; nums2.size(); ++l) &#123; nums3.push_back(nums2[l]); &#125; int a = nums3.size() / 2 ; if(nums3.size() % 2 == 0) &#123; res = (nums3[a - 1] + nums3[a]) / 2.0 ; &#125;else&#123; res = nums3[a]; &#125; return res; &#125;&#125;;int main() &#123; int nums1[] = &#123;1, 3&#125;; int nums2[] = &#123;2&#125;; vector&lt;int&gt; vec1(nums1,nums1 + sizeof(nums1)/sizeof(int)); vector&lt;int&gt; vec2(nums2,nums2 + sizeof(nums2)/sizeof(int)); double res = Solution().findMedianSortedArrays(vec1, vec2); cout&lt;&lt;"中位数: "&lt;&lt;res&lt;&lt;endl; return 0;&#125; Ruby版12]]></content>
   </entry>
   <entry>
     <title><![CDATA[LeetCode 3.无重复字符的最长子串]]></title>
@@ -32,7 +32,7 @@
   <entry>
     <title><![CDATA[LeetCode 文章模版]]></title>
     <url>%2F2018%2F10%2F26%2FLeetCode-%E6%96%87%E7%AB%A0%E6%A8%A1%E7%89%88%2F</url>
-    <content type="text"><![CDATA[题目给定两个非空链表来表示两个非负整数。位数按照逆序方式存储，它们的每个节点只存储单个数字。将两数相加返回一个新的链表。 你可以假设除了数字 0 之外，这两个数字都不会以零开头。 示例: 输入：(2 -&gt; 4 -&gt; 3) + (5 -&gt; 6 -&gt; 4) 输出：7 -&gt; 0 -&gt; 8 原因：342 + 465 = 807 C++版12 Ruby版12]]></content>
+    <content type="text"><![CDATA[题目 C++版12 Ruby版12]]></content>
   </entry>
   <entry>
     <title><![CDATA[LeetCode 2.两数相加]]></title>
