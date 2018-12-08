@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[写Rails或Ruby的一些技巧]]></title>
+    <url>%2F2018%2F12%2F04%2F%E5%86%99Rails%E6%88%96Ruby%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7%2F</url>
+    <content type="text"><![CDATA[Ruby1.&lt;&lt;()方法是数组的常用方法,用于把值添加到数组的末尾:12345ages = []for person in @people ages &lt;&lt; person.ageend 2.Ruby为创建单词数组提供了快捷方式:123a = ['ant', 'bee', 'cat', 'dog', 'elk']等价于:a = %w&#123; ant bee cat dog elk&#125; Rails1.truncate(string)辅助方法用于显示string前80个字符2.strip_tags(string)辅助方法删除string中的HTMl标签3.sanitize(string)可以安全地使用string中的HTML代码]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[各种排序算法]]></title>
     <url>%2F2018%2F10%2F31%2F%E5%90%84%E7%A7%8D%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%2F</url>
     <content type="text"></content>

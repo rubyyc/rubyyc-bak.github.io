@@ -1,3 +1,4 @@
+https://www.rubyc.cn/2018/12/04/写Rails或Ruby的一些技巧/
 https://www.rubyc.cn/2018/10/31/各种排序算法/
 https://www.rubyc.cn/2018/10/29/二叉树的遍历与相关应用/
 https://www.rubyc.cn/2018/10/28/LeetCode-4-两个排序数组的中位数/

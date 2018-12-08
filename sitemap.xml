@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.rubyc.cn/2018/12/04/%E5%86%99Rails%E6%88%96Ruby%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7/</loc>
+    
+    <lastmod>2018-12-07T10:27:32.074Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.rubyc.cn/2018/10/28/LeetCode-4-%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0/</loc>
     
     <lastmod>2018-11-24T11:33:49.647Z</lastmod>
