@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.rubyc.cn/2018/09/26/Rails%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2018-12-08T06:14:04.008Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.rubyc.cn/2018/12/04/%E5%86%99Rails%E6%88%96Ruby%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7/</loc>
     
-    <lastmod>2018-12-07T10:27:32.074Z</lastmod>
+    <lastmod>2018-12-08T05:21:01.963Z</lastmod>
     
   </url>
   
@@ -82,13 +89,6 @@
     <loc>https://www.rubyc.cn/2018/10/24/vector%E7%9A%84%E7%94%A8%E6%B3%95/</loc>
     
     <lastmod>2018-10-24T01:34:34.317Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.rubyc.cn/2018/09/26/Rails%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
-    
-    <lastmod>2018-10-19T06:39:04.268Z</lastmod>
     
   </url>
   
