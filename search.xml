@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[《Rails5敏捷开发》书中的一些可以改进的地方]]></title>
-    <url>%2F2018%2F12%2F08%2F%E3%80%8ARails5%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E3%80%8B%E4%B9%A6%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B0%8F%E9%94%99%E8%AF%AF%2F</url>
+    <url>%2F2018%2F12%2F08%2F%E3%80%8ARails5%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E3%80%8B%E4%B9%A6%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E5%8F%AF%E4%BB%A5%E6%94%B9%E8%BF%9B%E7%9A%84%E5%9C%B0%E6%96%B9%2F</url>
     <content type="text"><![CDATA[1. 134页 \u00D7 书上误勘为 |u00D72. 138页 第一行 open development.log建议改成open log/development.log,因为depot应用的命令几乎全在depot主目录下执行的3. 155页 在此使用了jQuery但项目中现在并没有加载jQuery，因此会报错,建议在书中此处加入如何在项目中加载jQuery的步骤 4. 160页 assert_select ‘tr#current_item td’, ‘Programming Ruby 1.9’ 误勘为assert_select ‘tr#current_item td’, |Programming Ruby 1.9|5. 160页 本页中的最后一个”HTML”误勘为”HTM1”6. 166页12ActionCable.server.broadcast 'products', html: render_to_string('store/index', _layout: false) 从这行代码可以看出广播消息用html作为散列的键，值则是store/index这个渲染后的HTML,然后$(“.store #main”).html(data.html)来替换广播消息的值,如书中所说只替换#main中的内容。可是问题出现在这个广播消息的值，从图中可以看出，这个值不只是产品列表还有侧边栏，因此控制台也报错了，目前尚不知原因出在何处。 store/index]]></content>
   </entry>
   <entry>

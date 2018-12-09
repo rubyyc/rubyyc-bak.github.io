@@ -1,4 +1,4 @@
-https://www.rubyc.cn/2018/12/08/《Rails5敏捷开发》书中的一些小错误/
+https://www.rubyc.cn/2018/12/08/《Rails5敏捷开发》书中的一些可以改进的地方/
 https://www.rubyc.cn/2018/12/04/写Rails或Ruby的一些技巧/
 https://www.rubyc.cn/2018/10/31/各种排序算法/
 https://www.rubyc.cn/2018/10/29/二叉树的遍历与相关应用/
