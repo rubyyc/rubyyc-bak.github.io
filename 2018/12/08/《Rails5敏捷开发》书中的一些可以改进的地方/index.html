@@ -103,7 +103,8 @@
 <meta property="og:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/jquery.jpg">
 <meta property="og:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/cable.jpg">
 <meta property="og:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/store_index.jpg">
-<meta property="og:updated_time" content="2018-12-09T11:34:28.675Z">
+<meta property="og:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/submit.jpg">
+<meta property="og:updated_time" content="2018-12-10T13:03:42.263Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="《Rails5敏捷开发》书中的一些可以改进的地方 ">
 <meta name="twitter:description" content="1. 134页 \u00D7 书上误勘为 |u00D72. 138页 第一行 open development.log建议改成open log/development.log,因为depot应用的命令几乎全在depot主目录下执行的3. 155页 在此使用了jQuery但项目中现在并没有加载jQuery，因此会报错,建议在书中此处加入如何在项目中加载jQuery的步骤 4. 160页 assert">
@@ -402,8 +403,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-12-09T19:34:28+08:00">
-                2018-12-09
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-10T21:03:42+08:00">
+                2018-12-10
               </time>
             
           </span>
@@ -445,7 +446,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  259
+                  278
                 </span>
               
 
@@ -486,6 +487,8 @@
 <h3 id="4-160页-assert-select-‘tr-current-item-td’-‘Programming-Ruby-1-9’-误勘为assert-select-‘tr-current-item-td’-Programming-Ruby-1-9"><a href="#4-160页-assert-select-‘tr-current-item-td’-‘Programming-Ruby-1-9’-误勘为assert-select-‘tr-current-item-td’-Programming-Ruby-1-9" class="headerlink" title="4. 160页 assert_select ‘tr#current_item td’, ‘Programming Ruby 1.9’ 误勘为assert_select ‘tr#current_item td’, |Programming Ruby 1.9|"></a>4. 160页 assert_select ‘tr#current_item td’, ‘Programming Ruby 1.9’ 误勘为assert_select ‘tr#current_item td’, |Programming Ruby 1.9|</h3><h3 id="5-160页-本页中的最后一个”HTML”误勘为”HTM1”"><a href="#5-160页-本页中的最后一个”HTML”误勘为”HTM1”" class="headerlink" title="5. 160页 本页中的最后一个”HTML”误勘为”HTM1”"></a>5. 160页 本页中的最后一个”HTML”误勘为”HTM1”</h3><h3 id="6-166页"><a href="#6-166页" class="headerlink" title="6. 166页"></a>6. 166页</h3><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ActionCable.server.broadcast <span class="string">'products'</span>,</span><br><span class="line">          <span class="symbol">html:</span> render_to_string(<span class="string">'store/index'</span>, <span class="symbol">_layout:</span> <span class="literal">false</span>)</span><br></pre></td></tr></table></figure>
 <h3 id="从这行代码可以看出广播消息用html作为散列的键，值则是store-index这个渲染后的HTML-然后-“-store-main”-html-data-html-来替换广播消息的值-如书中所说只替换-main中的内容。可是问题出现在这个广播消息的值，从图中可以看出，这个值不只是产品列表还有侧边栏，因此控制台也报错了，目前尚不知原因出在何处。"><a href="#从这行代码可以看出广播消息用html作为散列的键，值则是store-index这个渲染后的HTML-然后-“-store-main”-html-data-html-来替换广播消息的值-如书中所说只替换-main中的内容。可是问题出现在这个广播消息的值，从图中可以看出，这个值不只是产品列表还有侧边栏，因此控制台也报错了，目前尚不知原因出在何处。" class="headerlink" title="从这行代码可以看出广播消息用html作为散列的键，值则是store/index这个渲染后的HTML,然后$(“.store #main”).html(data.html)来替换广播消息的值,如书中所说只替换#main中的内容。可是问题出现在这个广播消息的值，从图中可以看出，这个值不只是产品列表还有侧边栏，因此控制台也报错了，目前尚不知原因出在何处。"></a>从这行代码可以看出广播消息用html作为散列的键，值则是store/index这个渲染后的HTML,然后$(“.store #main”).html(data.html)来替换广播消息的值,如书中所说只替换#main中的内容。可是问题出现在这个广播消息的值，从图中可以看出，这个值不只是产品列表还有侧边栏，因此控制台也报错了，目前尚不知原因出在何处。</h3><p><img src="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/cable.jpg" alt="cable.jpg"></p>
 <h2 id="store-index"><a href="#store-index" class="headerlink" title="store/index"></a>store/index</h2><p><img src="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/store_index.jpg" alt="store_index.jpg"></p>
+<h3 id="7-175页"><a href="#7-175页" class="headerlink" title="7. 175页"></a>7. 175页</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.submit</span> &#123;</span><br><span class="line"><span class="attribute">margin-left</span>: <span class="number">4em</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="而页面中未搜索到class-”submit”"><a href="#而页面中未搜索到class-”submit”" class="headerlink" title="而页面中未搜索到class=”submit”"></a>而页面中未搜索到class=”submit”</h4><p><img src="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/submit.jpg" alt="submit.jpg"></p>
 
       
     </div>
@@ -737,7 +740,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-134页-u00D7-书上误勘为-u00D7"><span class="nav-number">1.</span> <span class="nav-text">1. 134页 \u00D7 书上误勘为 |u00D7</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-138页-第一行-open-development-log建议改成open-log-development-log-因为depot应用的命令几乎全在depot主目录下执行的"><span class="nav-number">2.</span> <span class="nav-text">2. 138页 第一行 open development.log建议改成open log/development.log,因为depot应用的命令几乎全在depot主目录下执行的</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-155页-在此使用了jQuery但项目中现在并没有加载jQuery，因此会报错-建议在书中此处加入如何在项目中加载jQuery的步骤"><span class="nav-number">3.</span> <span class="nav-text">3. 155页 在此使用了jQuery但项目中现在并没有加载jQuery，因此会报错,建议在书中此处加入如何在项目中加载jQuery的步骤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-160页-assert-select-‘tr-current-item-td’-‘Programming-Ruby-1-9’-误勘为assert-select-‘tr-current-item-td’-Programming-Ruby-1-9"><span class="nav-number">4.</span> <span class="nav-text">4. 160页 assert_select ‘tr#current_item td’, ‘Programming Ruby 1.9’ 误勘为assert_select ‘tr#current_item td’, |Programming Ruby 1.9|</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-160页-本页中的最后一个”HTML”误勘为”HTM1”"><span class="nav-number">5.</span> <span class="nav-text">5. 160页 本页中的最后一个”HTML”误勘为”HTM1”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-166页"><span class="nav-number">6.</span> <span class="nav-text">6. 166页</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#从这行代码可以看出广播消息用html作为散列的键，值则是store-index这个渲染后的HTML-然后-“-store-main”-html-data-html-来替换广播消息的值-如书中所说只替换-main中的内容。可是问题出现在这个广播消息的值，从图中可以看出，这个值不只是产品列表还有侧边栏，因此控制台也报错了，目前尚不知原因出在何处。"><span class="nav-number">7.</span> <span class="nav-text">从这行代码可以看出广播消息用html作为散列的键，值则是store/index这个渲染后的HTML,然后$(“.store #main”).html(data.html)来替换广播消息的值,如书中所说只替换#main中的内容。可是问题出现在这个广播消息的值，从图中可以看出，这个值不只是产品列表还有侧边栏，因此控制台也报错了，目前尚不知原因出在何处。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#store-index"><span class="nav-number"></span> <span class="nav-text">store/index</span></a></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-134页-u00D7-书上误勘为-u00D7"><span class="nav-number">1.</span> <span class="nav-text">1. 134页 \u00D7 书上误勘为 |u00D7</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-138页-第一行-open-development-log建议改成open-log-development-log-因为depot应用的命令几乎全在depot主目录下执行的"><span class="nav-number">2.</span> <span class="nav-text">2. 138页 第一行 open development.log建议改成open log/development.log,因为depot应用的命令几乎全在depot主目录下执行的</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-155页-在此使用了jQuery但项目中现在并没有加载jQuery，因此会报错-建议在书中此处加入如何在项目中加载jQuery的步骤"><span class="nav-number">3.</span> <span class="nav-text">3. 155页 在此使用了jQuery但项目中现在并没有加载jQuery，因此会报错,建议在书中此处加入如何在项目中加载jQuery的步骤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-160页-assert-select-‘tr-current-item-td’-‘Programming-Ruby-1-9’-误勘为assert-select-‘tr-current-item-td’-Programming-Ruby-1-9"><span class="nav-number">4.</span> <span class="nav-text">4. 160页 assert_select ‘tr#current_item td’, ‘Programming Ruby 1.9’ 误勘为assert_select ‘tr#current_item td’, |Programming Ruby 1.9|</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-160页-本页中的最后一个”HTML”误勘为”HTM1”"><span class="nav-number">5.</span> <span class="nav-text">5. 160页 本页中的最后一个”HTML”误勘为”HTM1”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-166页"><span class="nav-number">6.</span> <span class="nav-text">6. 166页</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#从这行代码可以看出广播消息用html作为散列的键，值则是store-index这个渲染后的HTML-然后-“-store-main”-html-data-html-来替换广播消息的值-如书中所说只替换-main中的内容。可是问题出现在这个广播消息的值，从图中可以看出，这个值不只是产品列表还有侧边栏，因此控制台也报错了，目前尚不知原因出在何处。"><span class="nav-number">7.</span> <span class="nav-text">从这行代码可以看出广播消息用html作为散列的键，值则是store/index这个渲染后的HTML,然后$(“.store #main”).html(data.html)来替换广播消息的值,如书中所说只替换#main中的内容。可是问题出现在这个广播消息的值，从图中可以看出，这个值不只是产品列表还有侧边栏，因此控制台也报错了，目前尚不知原因出在何处。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#store-index"><span class="nav-number"></span> <span class="nav-text">store/index</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#7-175页"><span class="nav-number">1.</span> <span class="nav-text">7. 175页</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#而页面中未搜索到class-”submit”"><span class="nav-number">1.1.</span> <span class="nav-text">而页面中未搜索到class=”submit”</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -771,7 +774,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">2.9k</span>
+    <span title="Site words total count">3k</span>
   
 </div>
 
