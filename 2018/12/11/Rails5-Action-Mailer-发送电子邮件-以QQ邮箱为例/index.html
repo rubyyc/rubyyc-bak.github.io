@@ -92,19 +92,19 @@
 
 
 
-<meta name="description" content="123456789101112131415Depot::Application.configure do    config.action_mailer.delivery_method = :smtp    config.action_mailer.perform_deliveries = true    config.action_mailer.raise_delivery_errors = t">
+<meta name="description" content="config/environments/development.rb123456789101112131415Depot::Application.configure do    config.action_mailer.delivery_method = :smtp    config.action_mailer.perform_deliveries = true    config.actio">
 <meta name="keywords" content="苑畅 Ruby on Rails 苑畅的博客 rubyc">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Rails5 Action Mailer 发送电子邮件--以QQ邮箱为例">
 <meta property="og:url" content="https://www.rubyc.cn/2018/12/11/Rails5-Action-Mailer-发送电子邮件-以QQ邮箱为例/index.html">
 <meta property="og:site_name" content="yuanchang">
-<meta property="og:description" content="123456789101112131415Depot::Application.configure do    config.action_mailer.delivery_method = :smtp    config.action_mailer.perform_deliveries = true    config.action_mailer.raise_delivery_errors = t">
+<meta property="og:description" content="config/environments/development.rb123456789101112131415Depot::Application.configure do    config.action_mailer.delivery_method = :smtp    config.action_mailer.perform_deliveries = true    config.actio">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/qq%E9%82%AE%E7%AE%B1.jpg">
-<meta property="og:updated_time" content="2018-12-11T12:49:11.941Z">
+<meta property="og:updated_time" content="2018-12-11T12:51:31.887Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Rails5 Action Mailer 发送电子邮件--以QQ邮箱为例">
-<meta name="twitter:description" content="123456789101112131415Depot::Application.configure do    config.action_mailer.delivery_method = :smtp    config.action_mailer.perform_deliveries = true    config.action_mailer.raise_delivery_errors = t">
+<meta name="twitter:description" content="config/environments/development.rb123456789101112131415Depot::Application.configure do    config.action_mailer.delivery_method = :smtp    config.action_mailer.perform_deliveries = true    config.actio">
 <meta name="twitter:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/qq%E9%82%AE%E7%AE%B1.jpg">
 
 
@@ -400,7 +400,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-12-11T20:49:11+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-11T20:51:31+08:00">
                 2018-12-11
               </time>
             
@@ -443,7 +443,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  57
+                  63
                 </span>
               
 
@@ -480,8 +480,9 @@
       
 
       
-        <figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">Depot::Application.configure <span class="keyword">do</span></span><br><span class="line">    config.action_mailer.delivery_method = <span class="symbol">:smtp</span></span><br><span class="line">    config.action_mailer.perform_deliveries = <span class="literal">true</span></span><br><span class="line">    config.action_mailer.raise_delivery_errors = <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">    config.action_mailer.smtp_settings = &#123;</span><br><span class="line">        <span class="symbol">address:</span> <span class="string">"smtp.qq.com"</span>,</span><br><span class="line">        <span class="symbol">port:</span> <span class="number">25</span>, </span><br><span class="line">        <span class="symbol">domain:</span> <span class="string">"qq.com"</span>,</span><br><span class="line">        <span class="symbol">authentication:</span> <span class="symbol">:plain</span>,</span><br><span class="line">        <span class="symbol">user_name:</span> <span class="string">"your_email"</span>,</span><br><span class="line">        <span class="symbol">password:</span> <span class="string">"your_password"</span>,</span><br><span class="line">        <span class="symbol">enable_starttls_auto:</span> <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  <span class="keyword">end</span></span><br></pre></td></tr></table></figure>
-<h4 id="port应该为25，被官方文档坑了-试了465-587都不对"><a href="#port应该为25，被官方文档坑了-试了465-587都不对" class="headerlink" title="port应该为25，被官方文档坑了,试了465,587都不对"></a>port应该为25，被官方文档坑了,试了465,587都不对</h4><p><img src="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/qq%E9%82%AE%E7%AE%B1.jpg" alt="qq_email.jpg"></p>
+        <h3 id="config-environments-development-rb"><a href="#config-environments-development-rb" class="headerlink" title="config/environments/development.rb"></a>config/environments/development.rb</h3><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">Depot::Application.configure <span class="keyword">do</span></span><br><span class="line">    config.action_mailer.delivery_method = <span class="symbol">:smtp</span></span><br><span class="line">    config.action_mailer.perform_deliveries = <span class="literal">true</span></span><br><span class="line">    config.action_mailer.raise_delivery_errors = <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">    config.action_mailer.smtp_settings = &#123;</span><br><span class="line">        <span class="symbol">address:</span> <span class="string">"smtp.qq.com"</span>,</span><br><span class="line">        <span class="symbol">port:</span> <span class="number">25</span>, </span><br><span class="line">        <span class="symbol">domain:</span> <span class="string">"qq.com"</span>,</span><br><span class="line">        <span class="symbol">authentication:</span> <span class="symbol">:plain</span>,</span><br><span class="line">        <span class="symbol">user_name:</span> <span class="string">"your_email"</span>,</span><br><span class="line">        <span class="symbol">password:</span> <span class="string">"your_password"</span>,</span><br><span class="line">        <span class="symbol">enable_starttls_auto:</span> <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  <span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="port应该为25，被官方文档坑了-试了半天的465-587都不对"><a href="#port应该为25，被官方文档坑了-试了半天的465-587都不对" class="headerlink" title="port应该为25，被官方文档坑了,试了半天的465,587都不对"></a>port应该为25，被官方文档坑了,试了半天的465,587都不对</h3><p><img src="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/qq%E9%82%AE%E7%AE%B1.jpg" alt="qq_email.jpg"></p>
 
       
     </div>
@@ -733,7 +734,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#port应该为25，被官方文档坑了-试了465-587都不对"><span class="nav-number">1.</span> <span class="nav-text">port应该为25，被官方文档坑了,试了465,587都不对</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#config-environments-development-rb"><span class="nav-number">1.</span> <span class="nav-text">config/environments/development.rb</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#port应该为25，被官方文档坑了-试了半天的465-587都不对"><span class="nav-number">2.</span> <span class="nav-text">port应该为25，被官方文档坑了,试了半天的465,587都不对</span></a></li></ol></div>
             
 
           </div>

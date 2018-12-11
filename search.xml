@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Rails5 Action Mailer 发送电子邮件--以QQ邮箱为例]]></title>
     <url>%2F2018%2F12%2F11%2FRails5-Action-Mailer-%E5%8F%91%E9%80%81%E7%94%B5%E5%AD%90%E9%82%AE%E4%BB%B6-%E4%BB%A5QQ%E9%82%AE%E7%AE%B1%E4%B8%BA%E4%BE%8B%2F</url>
-    <content type="text"><![CDATA[123456789101112131415Depot::Application.configure do config.action_mailer.delivery_method = :smtp config.action_mailer.perform_deliveries = true config.action_mailer.raise_delivery_errors = true config.action_mailer.smtp_settings = &#123; address: "smtp.qq.com", port: 25, domain: "qq.com", authentication: :plain, user_name: "your_email", password: "your_password", enable_starttls_auto: true &#125; end port应该为25，被官方文档坑了,试了465,587都不对]]></content>
+    <content type="text"><![CDATA[config/environments/development.rb123456789101112131415Depot::Application.configure do config.action_mailer.delivery_method = :smtp config.action_mailer.perform_deliveries = true config.action_mailer.raise_delivery_errors = true config.action_mailer.smtp_settings = &#123; address: "smtp.qq.com", port: 25, domain: "qq.com", authentication: :plain, user_name: "your_email", password: "your_password", enable_starttls_auto: true &#125; end port应该为25，被官方文档坑了,试了半天的465,587都不对]]></content>
   </entry>
   <entry>
     <title><![CDATA[《Rails5敏捷开发》书中的一些可以改进的地方]]></title>
