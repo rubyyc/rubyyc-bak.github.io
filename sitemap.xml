@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.rubyc.cn/2018/12/13/Rails5-%E5%AE%89%E8%A3%85bcrypt%E6%8A%A5%E9%94%99-An-error-occurred-while-installing-bcrypt-3-1-12-and-Bundler-cannot-continue/</loc>
+    
+    <lastmod>2018-12-13T03:54:30.083Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.rubyc.cn/2018/12/04/%E5%86%99Rails%E6%88%96Ruby%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7/</loc>
+    
+    <lastmod>2018-12-12T12:40:20.842Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.rubyc.cn/2018/12/11/Rails5-Action-Mailer-%E5%8F%91%E9%80%81%E7%94%B5%E5%AD%90%E9%82%AE%E4%BB%B6-%E4%BB%A5QQ%E9%82%AE%E7%AE%B1%E4%B8%BA%E4%BE%8B/</loc>
     
     <lastmod>2018-12-11T12:51:31.887Z</lastmod>
@@ -19,13 +33,6 @@
     <loc>https://www.rubyc.cn/2018/09/26/Rails%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     
     <lastmod>2018-12-09T09:47:43.188Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.rubyc.cn/2018/12/04/%E5%86%99Rails%E6%88%96Ruby%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7/</loc>
-    
-    <lastmod>2018-12-08T05:21:01.963Z</lastmod>
     
   </url>
   

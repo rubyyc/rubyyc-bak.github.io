@@ -92,17 +92,20 @@
 
 
 
-<meta name="description" content="苑畅的博客">
+<meta name="description" content="按照《Rails5敏捷开发》教程进行到第14章–用户登录功能，User表中的密码字段需要存储为指纹哈希值，因此需要用到bcrypt.按照书上添加gem ‘bcrypt’, ‘~&amp;gt;3.1.7’1bundle install 结果报错 谷歌到这些解决方法1.https://stackoverflow.com/questions/37158550/an-error-occurred-while-i">
 <meta name="keywords" content="苑畅 Ruby on Rails 苑畅的博客 rubyc">
-<meta property="og:type" content="website">
-<meta property="og:title" content="yuanchang">
-<meta property="og:url" content="https://www.rubyc.cn/archives/2018/page/2/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Rails5 安装bcrypt报错 An error occurred while installing bcrypt (3.1.12), and Bundler cannot continue. ">
+<meta property="og:url" content="https://www.rubyc.cn/2018/12/13/Rails5-安装bcrypt报错-An-error-occurred-while-installing-bcrypt-3-1-12-and-Bundler-cannot-continue/index.html">
 <meta property="og:site_name" content="yuanchang">
-<meta property="og:description" content="苑畅的博客">
+<meta property="og:description" content="按照《Rails5敏捷开发》教程进行到第14章–用户登录功能，User表中的密码字段需要存储为指纹哈希值，因此需要用到bcrypt.按照书上添加gem ‘bcrypt’, ‘~&amp;gt;3.1.7’1bundle install 结果报错 谷歌到这些解决方法1.https://stackoverflow.com/questions/37158550/an-error-occurred-while-i">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/bcrpty.jpg">
+<meta property="og:updated_time" content="2018-12-13T03:54:30.083Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="yuanchang">
-<meta name="twitter:description" content="苑畅的博客">
+<meta name="twitter:title" content="Rails5 安装bcrypt报错 An error occurred while installing bcrypt (3.1.12), and Bundler cannot continue. ">
+<meta name="twitter:description" content="按照《Rails5敏捷开发》教程进行到第14章–用户登录功能，User表中的密码字段需要存储为指纹哈希值，因此需要用到bcrypt.按照书上添加gem ‘bcrypt’, ‘~&amp;gt;3.1.7’1bundle install 结果报错 谷歌到这些解决方法1.https://stackoverflow.com/questions/37158550/an-error-occurred-while-i">
+<meta name="twitter:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/bcrpty.jpg">
 
 
 
@@ -134,13 +137,13 @@
 
 
 
-  <link rel="canonical" href="https://www.rubyc.cn/archives/2018/page/2/"/>
+  <link rel="canonical" href="https://www.rubyc.cn/2018/12/13/Rails5-安装bcrypt报错-An-error-occurred-while-installing-bcrypt-3-1-12-and-Bundler-cannot-continue/"/>
 
 
 
 
 
-  <title>归档 | yuanchang</title>
+  <title>Rails5 安装bcrypt报错 An error occurred while installing bcrypt (3.1.12), and Bundler cannot continue.  | yuanchang</title>
   
 
 
@@ -159,7 +162,7 @@
     
   
 
-  <div class="container sidebar-position-right page-archive">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
     <a href="https://github.com/yuanchang2018" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#FD6C6C; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 
@@ -338,411 +341,264 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.rubyc.cn/2018/12/13/Rails5-安装bcrypt报错-An-error-occurred-while-installing-bcrypt-3-1-12-and-Bundler-cannot-continue/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="苑畅">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="yuanchang">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h2 class="post-title" itemprop="name headline">Rails5 安装bcrypt报错 An error occurred while installing bcrypt (3.1.12), and Bundler cannot continue. </h2>
         
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-13T10:55:16+08:00">
+                2018-12-13
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-13T11:54:30+08:00">
+                2018-12-13
+              </time>
+            
+          </span>
+
           
-        
-        嗯..! 目前共计 25 篇日志。 继续努力。
-      </span>
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/12/13/Rails5-安装bcrypt报错-An-error-occurred-while-installing-bcrypt-3-1-12-and-Bundler-cannot-continue/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/12/13/Rails5-安装bcrypt报错-An-error-occurred-while-installing-bcrypt-3-1-12-and-Bundler-cannot-continue/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>阅读数
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  585
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  3
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
+      
 
+      
+        <h3 id="按照《Rails5敏捷开发》教程进行到第14章–用户登录功能，User表中的密码字段需要存储为指纹哈希值，因此需要用到bcrypt-按照书上添加gem-‘bcrypt’-‘-gt-3-1-7’"><a href="#按照《Rails5敏捷开发》教程进行到第14章–用户登录功能，User表中的密码字段需要存储为指纹哈希值，因此需要用到bcrypt-按照书上添加gem-‘bcrypt’-‘-gt-3-1-7’" class="headerlink" title="按照《Rails5敏捷开发》教程进行到第14章–用户登录功能，User表中的密码字段需要存储为指纹哈希值，因此需要用到bcrypt.按照书上添加gem ‘bcrypt’, ‘~&gt;3.1.7’"></a>按照《Rails5敏捷开发》教程进行到第14章–用户登录功能，User表中的密码字段需要存储为指纹哈希值，因此需要用到bcrypt.按照书上添加gem ‘bcrypt’, ‘~&gt;3.1.7’</h3><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bundle install</span><br></pre></td></tr></table></figure>
+<h3 id="结果报错"><a href="#结果报错" class="headerlink" title="结果报错"></a>结果报错</h3><p><img src="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/bcrpty.jpg" alt="bcrpty.jpg"></p>
+<h3 id="谷歌到这些解决方法"><a href="#谷歌到这些解决方法" class="headerlink" title="谷歌到这些解决方法"></a>谷歌到这些解决方法</h3><h4 id="1-https-stackoverflow-com-questions-37158550-an-error-occurred-while-installing-bcrypt-3-1-11-and-bundler-cannot-continue"><a href="#1-https-stackoverflow-com-questions-37158550-an-error-occurred-while-installing-bcrypt-3-1-11-and-bundler-cannot-continue" class="headerlink" title="1.https://stackoverflow.com/questions/37158550/an-error-occurred-while-installing-bcrypt-3-1-11-and-bundler-cannot-continue"></a>1.<a><a href="https://stackoverflow.com/questions/37158550/an-error-occurred-while-installing-bcrypt-3-1-11-and-bundler-cannot-continue" target="_blank" rel="noopener">https://stackoverflow.com/questions/37158550/an-error-occurred-while-installing-bcrypt-3-1-11-and-bundler-cannot-continue</a></a></h4><h4 id="2-http-www-itdaan-com-blog-2018-05-26-75c1d12cf8462711dd890e28d30947f-html"><a href="#2-http-www-itdaan-com-blog-2018-05-26-75c1d12cf8462711dd890e28d30947f-html" class="headerlink" title="2.http://www.itdaan.com/blog/2018/05/26/75c1d12cf8462711dd890e28d30947f.html"></a>2.<a><a href="http://www.itdaan.com/blog/2018/05/26/75c1d12cf8462711dd890e28d30947f.html" target="_blank" rel="noopener">http://www.itdaan.com/blog/2018/05/26/75c1d12cf8462711dd890e28d30947f.html</a></a></h4><h4 id="3-https-community-bitnami-com-t-bcrypt-gem-failing-to-install-mac-os-x-21477"><a href="#3-https-community-bitnami-com-t-bcrypt-gem-failing-to-install-mac-os-x-21477" class="headerlink" title="3.https://community.bitnami.com/t/bcrypt-gem-failing-to-install-mac-os-x/21477"></a>3.<a><a href="https://community.bitnami.com/t/bcrypt-gem-failing-to-install-mac-os-x/21477" target="_blank" rel="noopener">https://community.bitnami.com/t/bcrypt-gem-failing-to-install-mac-os-x/21477</a></a></h4><h4 id="4-http-blog-champierre-com-1024"><a href="#4-http-blog-champierre-com-1024" class="headerlink" title="4.http://blog.champierre.com/1024"></a>4.<a><a href="http://blog.champierre.com/1024" target="_blank" rel="noopener">http://blog.champierre.com/1024</a></a></h4><h4 id="5-这个跟我报的错误一模一样，但我用这个方法还是不行，https-qiita-com-knoel-items-2aa35c9a5c34b3aea928"><a href="#5-这个跟我报的错误一模一样，但我用这个方法还是不行，https-qiita-com-knoel-items-2aa35c9a5c34b3aea928" class="headerlink" title="5.这个跟我报的错误一模一样，但我用这个方法还是不行，https://qiita.com/knoel/items/2aa35c9a5c34b3aea928"></a>5.这个跟我报的错误一模一样，但我用这个方法还是不行，<a><a href="https://qiita.com/knoel/items/2aa35c9a5c34b3aea928" target="_blank" rel="noopener">https://qiita.com/knoel/items/2aa35c9a5c34b3aea928</a></a></h4><h4 id="6-这个是bcrpty-ruby中的issuehttps-github-com-codahale-bcrypt-ruby-issues-102"><a href="#6-这个是bcrpty-ruby中的issuehttps-github-com-codahale-bcrypt-ruby-issues-102" class="headerlink" title="6.这个是bcrpty-ruby中的issuehttps://github.com/codahale/bcrypt-ruby/issues/102"></a>6.这个是bcrpty-ruby中的issue<a><a href="https://github.com/codahale/bcrypt-ruby/issues/102" target="_blank" rel="noopener">https://github.com/codahale/bcrypt-ruby/issues/102</a></a></h4><hr>
+<h3 id="以上都不能解决此报错问题，请大佬帮忙看看"><a href="#以上都不能解决此报错问题，请大佬帮忙看看" class="headerlink" title="以上都不能解决此报错问题，请大佬帮忙看看"></a>以上都不能解决此报错问题，请大佬帮忙看看</h3><h3 id="Gemfile"><a href="#Gemfile" class="headerlink" title="Gemfile"></a>Gemfile</h3><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line">source <span class="string">'https://rubygems.org'</span></span><br><span class="line">git_source(<span class="symbol">:github</span>) &#123; <span class="params">|repo|</span> <span class="string">"https://github.com/<span class="subst">#&#123;repo&#125;</span>.git"</span> &#125;</span><br><span class="line"></span><br><span class="line">ruby <span class="string">'2.3.7'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Bundle edge Rails instead: gem 'rails', github: 'rails/rails'</span></span><br><span class="line">gem <span class="string">'rails'</span>, <span class="string">'~&gt; 5.2.2'</span></span><br><span class="line"><span class="comment"># Use sqlite3 as the database for Active Record</span></span><br><span class="line">gem <span class="string">'sqlite3'</span></span><br><span class="line"><span class="comment"># Use Puma as the app server</span></span><br><span class="line">gem <span class="string">'puma'</span>, <span class="string">'~&gt; 3.11'</span></span><br><span class="line"><span class="comment"># Use SCSS for stylesheets</span></span><br><span class="line">gem <span class="string">'sass-rails'</span>, <span class="string">'~&gt; 5.0'</span></span><br><span class="line"><span class="comment"># Use Uglifier as compressor for JavaScript assets</span></span><br><span class="line">gem <span class="string">'uglifier'</span>, <span class="string">'&gt;= 1.3.0'</span></span><br><span class="line"><span class="comment"># See https://github.com/rails/execjs#readme for more supported runtimes</span></span><br><span class="line"><span class="comment"># gem 'mini_racer', platforms: :ruby</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line">gem <span class="string">'jquery-rails'</span>, <span class="string">'~&gt; 4.3'</span>, <span class="string">'&gt;= 4.3.3'</span></span><br><span class="line">gem <span class="string">'jquery-ui-rails'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Use CoffeeScript for .coffee assets and views</span></span><br><span class="line">gem <span class="string">'coffee-rails'</span>, <span class="string">'~&gt; 4.2'</span></span><br><span class="line"><span class="comment"># Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks</span></span><br><span class="line">gem <span class="string">'turbolinks'</span>, <span class="string">'~&gt; 5'</span></span><br><span class="line"><span class="comment"># Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder</span></span><br><span class="line">gem <span class="string">'jbuilder'</span>, <span class="string">'~&gt; 2.5'</span></span><br><span class="line"><span class="comment"># Use Redis adapter to run Action Cable in production</span></span><br><span class="line"><span class="comment"># gem 'redis', '~&gt; 4.0'</span></span><br><span class="line"><span class="comment"># Use ActiveModel has_secure_password</span></span><br><span class="line">gem <span class="string">'bcrypt'</span>, <span class="string">'~&gt; 3.1.7'</span></span><br><span class="line"><span class="comment"># gem 'bcrypt', platforms: :ruby</span></span><br><span class="line"><span class="comment"># gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require =&gt; 'bcrypt'</span></span><br><span class="line"><span class="comment">#gem 'bcrypt', '~&gt; 3.1', '&gt;= 3.1.12'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Use ActiveStorage variant</span></span><br><span class="line"><span class="comment"># gem 'mini_magick', '~&gt; 4.8'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Use Capistrano for deployment</span></span><br><span class="line"><span class="comment"># gem 'capistrano-rails', group: :development</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Reduces boot times through caching; required in config/boot.rb</span></span><br><span class="line">gem <span class="string">'bootsnap'</span>, <span class="string">'&gt;= 1.1.0'</span>, <span class="symbol">require:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">group <span class="symbol">:development</span>, <span class="symbol">:test</span> <span class="keyword">do</span></span><br><span class="line">  <span class="comment"># Call 'byebug' anywhere in the code to stop execution and get a debugger console</span></span><br><span class="line">  gem <span class="string">'byebug'</span>, <span class="symbol">platforms:</span> [<span class="symbol">:mri</span>, <span class="symbol">:mingw</span>, <span class="symbol">:x64_mingw</span>]</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">group <span class="symbol">:development</span> <span class="keyword">do</span></span><br><span class="line">  <span class="comment"># Access an interactive console on exception pages or by calling 'console' anywhere in the code.</span></span><br><span class="line">  gem <span class="string">'web-console'</span>, <span class="string">'&gt;= 3.3.0'</span></span><br><span class="line">  gem <span class="string">'listen'</span>, <span class="string">'&gt;= 3.0.5'</span>, <span class="string">'&lt; 3.2'</span></span><br><span class="line">  <span class="comment"># Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring</span></span><br><span class="line">  gem <span class="string">'spring'</span></span><br><span class="line">  gem <span class="string">'spring-watcher-listen'</span>, <span class="string">'~&gt; 2.0.0'</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">group <span class="symbol">:test</span> <span class="keyword">do</span></span><br><span class="line">  <span class="comment"># Adds support for Capybara system testing and selenium driver</span></span><br><span class="line">  gem <span class="string">'capybara'</span>, <span class="string">'&gt;= 2.15'</span></span><br><span class="line">  gem <span class="string">'selenium-webdriver'</span></span><br><span class="line">  <span class="comment"># Easy installation and use of chromedriver to run system tests with Chrome</span></span><br><span class="line">  gem <span class="string">'chromedriver-helper'</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Windows does not include zoneinfo files, so bundle the tzinfo-data gem</span></span><br><span class="line">gem <span class="string">'tzinfo-data'</span>, <span class="symbol">platforms:</span> [<span class="symbol">:mingw</span>, <span class="symbol">:mswin</span>, <span class="symbol">:x64_mingw</span>, <span class="symbol">:jruby</span>]</span><br></pre></td></tr></table></figure>
+<h3 id="电脑是MacPro2018最新款-操作系统升级到最新版的macOS-Mojave"><a href="#电脑是MacPro2018最新款-操作系统升级到最新版的macOS-Mojave" class="headerlink" title="电脑是MacPro2018最新款,操作系统升级到最新版的macOS Mojave."></a>电脑是MacPro2018最新款,操作系统升级到最新版的macOS Mojave.</h3><h3 id="本项目源码-https-github-com-yuanchang2018-depot"><a href="#本项目源码-https-github-com-yuanchang2018-depot" class="headerlink" title="本项目源码:https://github.com/yuanchang2018/depot"></a>本项目源码:<a><a href="https://github.com/yuanchang2018/depot" target="_blank" rel="noopener">https://github.com/yuanchang2018/depot</a></a></h3>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>^_^ 打赏一波 ^_^</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/%E5%BE%AE%E4%BF%A1%E4%BB%98%E6%AC%BE%E7%A0%81.png" alt="苑畅 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/%E6%94%AF%E4%BB%98%E5%AE%9D%E4%BB%98%E6%AC%BE%E7%A0%81.jpg" alt="苑畅 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    苑畅
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://www.rubyc.cn/2018/12/13/Rails5-安装bcrypt报错-An-error-occurred-while-installing-bcrypt-3-1-12-and-Bundler-cannot-continue/" title="Rails5 安装bcrypt报错 An error occurred while installing bcrypt (3.1.12), and Bundler cannot continue. ">https://www.rubyc.cn/2018/12/13/Rails5-安装bcrypt报错-An-error-occurred-while-installing-bcrypt-3-1-12-and-Bundler-cannot-continue/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+        <div class="post-widgets">
         
-        
+
         
 
         
           
-          <div class="collection-title">
-            <h2 class="archive-year" id="archive-year-2018">2018</h2>
+          <div id="needsharebutton-postbottom">
+            <span class="btn">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </span>
           </div>
         
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/10/26/LeetCode-2-两数相加/" itemprop="url">
-              
-                <span itemprop="name">LeetCode 2.两数相加</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-10-26T18:51:47+08:00"
-              content="2018-10-26" >
-          10-26
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
+        </div>
+      
       
 
-        
-        
-        
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/12/11/Rails5-Action-Mailer-发送电子邮件-以QQ邮箱为例/" rel="next" title="Rails5 Action Mailer 发送电子邮件--以QQ邮箱为例">
+                <i class="fa fa-chevron-left"></i> Rails5 Action Mailer 发送电子邮件--以QQ邮箱为例
+              </a>
+            
+          </div>
 
-        
-        
+          <span class="post-nav-divider"></span>
 
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/10/24/markdown常用语法/" itemprop="url">
-              
-                <span itemprop="name">markdown常用语法</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-10-24T10:41:15+08:00"
-              content="2018-10-24" >
-          10-24
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/10/24/vector的用法/" itemprop="url">
-              
-                <span itemprop="name">vector的用法</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-10-24T09:33:03+08:00"
-              content="2018-10-24" >
-          10-24
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/10/22/LeetCode-1-两数之和/" itemprop="url">
-              
-                <span itemprop="name">LeetCode 1.两数之和</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-10-22T10:48:32+08:00"
-              content="2018-10-22" >
-          10-22
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/10/18/乐观锁与悲观锁/" itemprop="url">
-              
-                <span itemprop="name">乐观锁与悲观锁</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-10-18T20:26:07+08:00"
-              content="2018-10-18" >
-          10-18
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/10/14/设计模式/" itemprop="url">
-              
-                <span itemprop="name">设计模式</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-10-14T20:30:19+08:00"
-              content="2018-10-14" >
-          10-14
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/10/14/Error-xcrun-error-invalid-active-developer-path-Library-Developer-CommandLineTools-missing-xcrun-at-Library-Developer-CommandLineTools-usr-bin-xcrun/" itemprop="url">
-              
-                <span itemprop="name">Error: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-10-14T18:49:19+08:00"
-              content="2018-10-14" >
-          10-14
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/10/14/升级Mojave-出现安装macOS时发生错误/" itemprop="url">
-              
-                <span itemprop="name">升级Mojave,出现安装macOS时发生错误或者无法验证macOS</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-10-14T15:11:31+08:00"
-              content="2018-10-14" >
-          10-14
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/10/14/Jetbrains系列产品2018-2-4最新激活方法/" itemprop="url">
-              
-                <span itemprop="name">Jetbrains系列产品2018.2.4最新激活方法</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-10-14T11:29:50+08:00"
-              content="2018-10-14" >
-          10-14
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/10/11/不蒜子404错误解决方案/" itemprop="url">
-              
-                <span itemprop="name">hexo中不蒜子404错误解决方案</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-10-11T18:01:27+08:00"
-              content="2018-10-11" >
-          10-11
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-    </div>
+    </footer>
   </div>
   
   
   
-
-  
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/archives/2018/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/archives/2018/">1</a><span class="page-number current">2</span><a class="page-number" href="/archives/2018/page/3/">3</a><a class="extend next" rel="next" href="/archives/2018/page/3/"><i class="fa fa-angle-right"></i></a>
-  </nav>
+  </article>
 
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -750,6 +606,15 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="SOHUCS"></div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -770,8 +635,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -851,6 +725,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#按照《Rails5敏捷开发》教程进行到第14章–用户登录功能，User表中的密码字段需要存储为指纹哈希值，因此需要用到bcrypt-按照书上添加gem-‘bcrypt’-‘-gt-3-1-7’"><span class="nav-number">1.</span> <span class="nav-text">按照《Rails5敏捷开发》教程进行到第14章–用户登录功能，User表中的密码字段需要存储为指纹哈希值，因此需要用到bcrypt.按照书上添加gem ‘bcrypt’, ‘~&gt;3.1.7’</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#结果报错"><span class="nav-number">2.</span> <span class="nav-text">结果报错</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#谷歌到这些解决方法"><span class="nav-number">3.</span> <span class="nav-text">谷歌到这些解决方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-https-stackoverflow-com-questions-37158550-an-error-occurred-while-installing-bcrypt-3-1-11-and-bundler-cannot-continue"><span class="nav-number">3.1.</span> <span class="nav-text">1.https://stackoverflow.com/questions/37158550/an-error-occurred-while-installing-bcrypt-3-1-11-and-bundler-cannot-continue</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-http-www-itdaan-com-blog-2018-05-26-75c1d12cf8462711dd890e28d30947f-html"><span class="nav-number">3.2.</span> <span class="nav-text">2.http://www.itdaan.com/blog/2018/05/26/75c1d12cf8462711dd890e28d30947f.html</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-https-community-bitnami-com-t-bcrypt-gem-failing-to-install-mac-os-x-21477"><span class="nav-number">3.3.</span> <span class="nav-text">3.https://community.bitnami.com/t/bcrypt-gem-failing-to-install-mac-os-x/21477</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-http-blog-champierre-com-1024"><span class="nav-number">3.4.</span> <span class="nav-text">4.http://blog.champierre.com/1024</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-这个跟我报的错误一模一样，但我用这个方法还是不行，https-qiita-com-knoel-items-2aa35c9a5c34b3aea928"><span class="nav-number">3.5.</span> <span class="nav-text">5.这个跟我报的错误一模一样，但我用这个方法还是不行，https://qiita.com/knoel/items/2aa35c9a5c34b3aea928</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-这个是bcrpty-ruby中的issuehttps-github-com-codahale-bcrypt-ruby-issues-102"><span class="nav-number">3.6.</span> <span class="nav-text">6.这个是bcrpty-ruby中的issuehttps://github.com/codahale/bcrypt-ruby/issues/102</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#以上都不能解决此报错问题，请大佬帮忙看看"><span class="nav-number">4.</span> <span class="nav-text">以上都不能解决此报错问题，请大佬帮忙看看</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Gemfile"><span class="nav-number">5.</span> <span class="nav-text">Gemfile</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#电脑是MacPro2018最新款-操作系统升级到最新版的macOS-Mojave"><span class="nav-number">6.</span> <span class="nav-text">电脑是MacPro2018最新款,操作系统升级到最新版的macOS Mojave.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#本项目源码-https-github-com-yuanchang2018-depot"><span class="nav-number">7.</span> <span class="nav-text">本项目源码:https://github.com/yuanchang2018/depot</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1063,6 +953,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
