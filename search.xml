@@ -8,7 +8,7 @@
   <entry>
     <title><![CDATA[denied: requested access to the resource is denied解决方案]]></title>
     <url>%2F2018%2F12%2F18%2Fdenied-requested-access-to-the-resource-is-denied%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
-    <content type="text"><![CDATA[发布docker镜像时,出现这种错误”denied: requested access to the resource is denied”解决方案:1.确保已登录docker账号,用户名为https://hub.docker.com/页面上的用户名1docker login 2.制作镜像时tag使用user/image_name,确保user为上面的用户名，这个需要保持一致,然后push1docker push user/image_name 注:docker login 可能会遇到”Error response from daemon: Get https://registry-1.docker.io/v2/: net/http: request canceled (Client.Timeout exceeded while awaiting headers)”,请参照]]></content>
+    <content type="text"><![CDATA[发布docker镜像时,出现这种错误”denied: requested access to the resource is denied”解决方案:1.确保已登录docker账号,用户名为https://hub.docker.com/页面上的用户名1docker login 2.制作镜像时tag使用user/image_name,确保user为上面的用户名，这个需要保持一致,然后push1docker push user/image_name 注:docker login 可能会遇到”Error response from daemon: Get https://registry-1.docker.io/v2/: net/http: request canceled (Client.Timeout exceeded while awaiting headers)”,请参照https://www.rubyc.cn/2018/12/18/Error-response-from-daemon-Get-https-registry-1-docker-io-v2-net-http-request-canceled-Client-Timeout-exceeded-while-awaiting-headers-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/]]></content>
       <tags>
         <tag>解决方案</tag>
         <tag>docker</tag>
