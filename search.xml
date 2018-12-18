@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Error response from daemon: Get https://registry-1.docker.io/v2/: net/http: request canceled (Client.Timeout exceeded while awaiting headers)解决方案]]></title>
     <url>%2F2018%2F12%2F18%2FError-response-from-daemon-Get-https-registry-1-docker-io-v2-net-http-request-canceled-Client-Timeout-exceeded-while-awaiting-headers-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
-    <content type="text"><![CDATA[docker push时出错”Error response from daemon: Get https://registry-1.docker.io/v2/: net/http:request canceled (Client.Timeout exceeded while awaiting headers)&quot;,这个主要是网络原因 1.1dig @114.114.114.114 registry-1.docker.io 2.从您输入步骤1命令后，如上图返回的ip(会变化，以您当时输入命令后返回的信息为准)中选一个3.把上面的ip添加到hosts1sudo vim /etc/hosts 54.175.43.85 registry-1.docker.io4.重启docker5.再次docker push]]></content>
+    <content type="text"><![CDATA[docker push时出错”Error response from daemon: Get https://registry-1.docker.io/v2/: net/http: request canceled (Client.Timeout exceeded while awaiting headers)”,这个主要是网络原因1.1dig @114.114.114.114 registry-1.docker.io 2.从您输入步骤1命令后，如上图返回的ip(会变化，以您当时输入命令后返回的信息为准)中选一个3.把上面的ip添加到hosts1sudo vim /etc/hosts 54.175.43.85 registry-1.docker.io4.重启docker5.再次docker push]]></content>
   </entry>
   <entry>
     <title><![CDATA[denied: requested access to the resource is denied解决方案]]></title>
