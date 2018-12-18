@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Docker命令]]></title>
     <url>%2F2018%2F12%2F14%2FDocker%E5%91%BD%E4%BB%A4%2F</url>
-    <content type="text"><![CDATA[1.查看Docker版本1docker version]]></content>
+    <content type="text"><![CDATA[1.查看Docker版本1docker version 2.确认实验特性是否开启1docker version -f '&#123;&#123;Server.Experimental&#125;&#125;' 3.查看运行的容器1docker ps 4.为避免每次使用Docker命令需要特权身份,可将当前用户添加到Docker用户组1sudo usermod -aG docker USER_NAME #在linux下可用，Mac下不可用 5.Docker开启Debug模式1dockerd -D -H tcp://127.0.0.1:2376 6.重启Docker1sudo service docker restart]]></content>
   </entry>
   <entry>
     <title><![CDATA[Rails5 安装bcrypt报错 An error occurred while installing bcrypt (3.1.12), and Bundler cannot continue.]]></title>

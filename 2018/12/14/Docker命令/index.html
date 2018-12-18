@@ -93,18 +93,18 @@
 
 
 
-<meta name="description" content="1.查看Docker版本1docker version">
+<meta name="description" content="1.查看Docker版本1docker version 2.确认实验特性是否开启1docker version -f &apos;&amp;#123;&amp;#123;Server.Experimental&amp;#125;&amp;#125;&apos; 3.查看运行的容器1docker ps 4.为避免每次使用Docker命令需要特权身份,可将当前用户添加到Docker用户组1sudo usermod -aG docker USER_NAM">
 <meta name="keywords" content="苑畅 Ruby on Rails 苑畅的博客 rubyc">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Docker命令">
 <meta property="og:url" content="https://www.rubyc.cn/2018/12/14/Docker命令/index.html">
 <meta property="og:site_name" content="yuanchang">
-<meta property="og:description" content="1.查看Docker版本1docker version">
+<meta property="og:description" content="1.查看Docker版本1docker version 2.确认实验特性是否开启1docker version -f &apos;&amp;#123;&amp;#123;Server.Experimental&amp;#125;&amp;#125;&apos; 3.查看运行的容器1docker ps 4.为避免每次使用Docker命令需要特权身份,可将当前用户添加到Docker用户组1sudo usermod -aG docker USER_NAM">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-14T02:30:54.308Z">
+<meta property="og:updated_time" content="2018-12-17T13:18:08.050Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Docker命令">
-<meta name="twitter:description" content="1.查看Docker版本1docker version">
+<meta name="twitter:description" content="1.查看Docker版本1docker version 2.确认实验特性是否开启1docker version -f &apos;&amp;#123;&amp;#123;Server.Experimental&amp;#125;&amp;#125;&apos; 3.查看运行的容器1docker ps 4.为避免每次使用Docker命令需要特权身份,可将当前用户添加到Docker用户组1sudo usermod -aG docker USER_NAM">
 
 
 
@@ -399,8 +399,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-12-14T10:30:54+08:00">
-                2018-12-14
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-17T21:18:08+08:00">
+                2018-12-17
               </time>
             
           </span>
@@ -442,7 +442,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  7
+                  102
                 </span>
               
 
@@ -480,6 +480,11 @@
 
       
         <h3 id="1-查看Docker版本"><a href="#1-查看Docker版本" class="headerlink" title="1.查看Docker版本"></a>1.查看Docker版本</h3><figure class="highlight docker"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker version</span><br></pre></td></tr></table></figure>
+<h3 id="2-确认实验特性是否开启"><a href="#2-确认实验特性是否开启" class="headerlink" title="2.确认实验特性是否开启"></a>2.确认实验特性是否开启</h3><figure class="highlight docker"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker version -f <span class="string">'&#123;&#123;Server.Experimental&#125;&#125;'</span></span><br></pre></td></tr></table></figure>
+<h3 id="3-查看运行的容器"><a href="#3-查看运行的容器" class="headerlink" title="3.查看运行的容器"></a>3.查看运行的容器</h3><figure class="highlight docker"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker ps</span><br></pre></td></tr></table></figure>
+<h3 id="4-为避免每次使用Docker命令需要特权身份-可将当前用户添加到Docker用户组"><a href="#4-为避免每次使用Docker命令需要特权身份-可将当前用户添加到Docker用户组" class="headerlink" title="4.为避免每次使用Docker命令需要特权身份,可将当前用户添加到Docker用户组"></a>4.为避免每次使用Docker命令需要特权身份,可将当前用户添加到Docker用户组</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo usermod -aG docker USER_NAME <span class="comment">#在linux下可用，Mac下不可用</span></span><br></pre></td></tr></table></figure>
+<h3 id="5-Docker开启Debug模式"><a href="#5-Docker开启Debug模式" class="headerlink" title="5.Docker开启Debug模式"></a>5.Docker开启Debug模式</h3><figure class="highlight docker"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dockerd -D -H tcp://<span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">2376</span></span><br></pre></td></tr></table></figure>
+<h3 id="6-重启Docker"><a href="#6-重启Docker" class="headerlink" title="6.重启Docker"></a>6.重启Docker</h3><figure class="highlight docker"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service docker restart</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -731,7 +736,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-查看Docker版本"><span class="nav-number">1.</span> <span class="nav-text">1.查看Docker版本</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-查看Docker版本"><span class="nav-number">1.</span> <span class="nav-text">1.查看Docker版本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-确认实验特性是否开启"><span class="nav-number">2.</span> <span class="nav-text">2.确认实验特性是否开启</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-查看运行的容器"><span class="nav-number">3.</span> <span class="nav-text">3.查看运行的容器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-为避免每次使用Docker命令需要特权身份-可将当前用户添加到Docker用户组"><span class="nav-number">4.</span> <span class="nav-text">4.为避免每次使用Docker命令需要特权身份,可将当前用户添加到Docker用户组</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-Docker开启Debug模式"><span class="nav-number">5.</span> <span class="nav-text">5.Docker开启Debug模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-重启Docker"><span class="nav-number">6.</span> <span class="nav-text">6.重启Docker</span></a></li></ol></div>
             
 
           </div>
@@ -765,7 +770,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">3.6k</span>
+    <span title="Site words total count">3.7k</span>
   
 </div>
 
