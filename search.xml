@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Error response from daemon: Get https://registry-1.docker.io/v2/: net/http: request canceled (Client.Timeout exceeded while awaiting headers)解决方案]]></title>
+    <url>%2F2018%2F12%2F18%2FError-response-from-daemon-Get-https-registry-1-docker-io-v2-net-http-request-canceled-Client-Timeout-exceeded-while-awaiting-headers-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
+    <content type="text"><![CDATA[docker push时出错”Error response from daemon: Get https://registry-1.docker.io/v2/: net/http:request canceled (Client.Timeout exceeded while awaiting headers)&quot;,这个主要是网络原因 1.1dig @114.114.114.114 registry-1.docker.io 2.从您输入步骤1命令后，如上图返回的ip(会变化，以您当时输入命令后返回的信息为准)中选一个3.把上面的ip添加到hosts1sudo vim /etc/hosts 54.175.43.85 registry-1.docker.io4.重启docker5.再次docker push]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[denied: requested access to the resource is denied解决方案]]></title>
+    <url>%2F2018%2F12%2F18%2Fdenied-requested-access-to-the-resource-is-denied%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
+    <content type="text"><![CDATA[发布docker镜像时,出现这种错误”denied: requested access to the resource is denied”解决方案:1.确保已登录docker账号,用户名为https://hub.docker.com/页面上的用户名1docker login 2.制作镜像时tag使用user/image_name,确保user为上面的用户名，这个需要保持一致,然后push1docker push user/image_name 注:docker login 可能会遇到”Error response from daemon: Get https://registry-1.docker.io/v2/: net/http: request canceled (Client.Timeout exceeded while awaiting headers)”,请参照]]></content>
+      <tags>
+        <tag>解决方案</tag>
+        <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Docker命令]]></title>
     <url>%2F2018%2F12%2F14%2FDocker%E5%91%BD%E4%BB%A4%2F</url>
     <content type="text"><![CDATA[1.查看Docker版本1docker version 2.确认实验特性是否开启1docker version -f '&#123;&#123;Server.Experimental&#125;&#125;' 3.查看运行的容器1docker ps 4.为避免每次使用Docker命令需要特权身份,可将当前用户添加到Docker用户组1sudo usermod -aG docker USER_NAME #在linux下可用，Mac下不可用 5.Docker开启Debug模式1dockerd -D -H tcp://127.0.0.1:2376 6.重启Docker1sudo service docker restart 7.下载镜像1docker pull 镜像名:标签(可选，默认最新版本) 8.列出本地主机已存在的镜像信息1docker images 9.为本地镜像添加新标签1docker tag local_image_name new_image_name 10.查看镜像的详细信息1docker inspect image_name:tag 11.搜索镜像1docker search image_name 12.查看镜像历史1docker history ubuntu 13.删除镜像1docker rmi iamge_name|ID(标签或ID) 14.查看所有存在的容器1docker ps -a 15.删除容器1docker rm ID 16.清理镜像（临时镜像和没有被使用的）1docker image prune -f 17.存出镜像1docker save -o file_name image_name 18.导入镜像1docker load -i image_file_name 19.登录Docker1docker login]]></content>

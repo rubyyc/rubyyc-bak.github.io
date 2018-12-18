@@ -1,3 +1,5 @@
+https://www.rubyc.cn/2018/12/18/Error-response-from-daemon-Get-https-registry-1-docker-io-v2-net-http-request-canceled-Client-Timeout-exceeded-while-awaiting-headers-解决方案/
+https://www.rubyc.cn/2018/12/18/denied-requested-access-to-the-resource-is-denied解决方案/
 https://www.rubyc.cn/2018/12/14/Docker命令/
 https://www.rubyc.cn/2018/12/13/Rails5-安装bcrypt报错-An-error-occurred-while-installing-bcrypt-3-1-12-and-Bundler-cannot-continue/
 https://www.rubyc.cn/2018/12/11/Rails5-Action-Mailer-发送电子邮件-以QQ邮箱为例/
