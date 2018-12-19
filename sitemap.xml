@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.rubyc.cn/2018/12/14/Docker%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2018-12-19T07:28:13.286Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.rubyc.cn/2018/12/18/Error-response-from-daemon-Get-https-registry-1-docker-io-v2-net-http-request-canceled-Client-Timeout-exceeded-while-awaiting-headers-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
     
     <lastmod>2018-12-18T12:21:30.475Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://www.rubyc.cn/2018/12/18/denied-requested-access-to-the-resource-is-denied%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
     
     <lastmod>2018-12-18T12:19:29.767Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.rubyc.cn/2018/12/14/Docker%E5%91%BD%E4%BB%A4/</loc>
-    
-    <lastmod>2018-12-18T08:30:22.780Z</lastmod>
     
   </url>
   
