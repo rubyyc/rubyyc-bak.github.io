@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.rubyc.cn/2018/12/13/Rails5-%E5%AE%89%E8%A3%85bcrypt%E6%8A%A5%E9%94%99-An-error-occurred-while-installing-bcrypt-3-1-12-and-Bundler-cannot-continue/</loc>
+    <lastmod>2018-12-21T01:57:49.088Z</lastmod>
+  </url>  <url>
     <loc>https://www.rubyc.cn/2018/12/20/%E4%B8%BADocker%E9%95%9C%E5%83%8F%E6%B7%BB%E5%8A%A0ssh%E6%9C%8D%E5%8A%A1/</loc>
-    <lastmod>2018-12-20T12:33:35.024Z</lastmod>
+    <lastmod>2018-12-20T13:29:32.723Z</lastmod>
   </url>  <url>
     <loc>https://www.rubyc.cn/2018/12/14/Docker%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2018-12-20T01:58:34.739Z</lastmod>
@@ -18,9 +21,6 @@
   </url>  <url>
     <loc>https://www.rubyc.cn/2018/12/18/denied-requested-access-to-the-resource-is-denied%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
     <lastmod>2018-12-18T12:19:29.767Z</lastmod>
-  </url>  <url>
-    <loc>https://www.rubyc.cn/2018/12/13/Rails5-%E5%AE%89%E8%A3%85bcrypt%E6%8A%A5%E9%94%99-An-error-occurred-while-installing-bcrypt-3-1-12-and-Bundler-cannot-continue/</loc>
-    <lastmod>2018-12-13T03:56:11.544Z</lastmod>
   </url>  <url>
     <loc>https://www.rubyc.cn/2018/12/04/%E5%86%99Rails%E6%88%96Ruby%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2018-12-12T12:40:20.842Z</lastmod>

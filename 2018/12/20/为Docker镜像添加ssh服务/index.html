@@ -101,7 +101,7 @@
 <meta property="og:site_name" content="yuanchang">
 <meta property="og:description" content="1.基于docker commit命令创建(以ubuntu:18.04为例)1.1 拉取镜像并更新ubuntu123docker pull ubuntu:18.04docker run -it ubuntu:18.04 bashapt-get update 1.2 安装openssh-server1apt-get install openssh-server 1.3 创建sshd文件夹并启动12m">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-20T12:33:35.024Z">
+<meta property="og:updated_time" content="2018-12-20T13:29:32.723Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="为Docker镜像添加ssh服务">
 <meta name="twitter:description" content="1.基于docker commit命令创建(以ubuntu:18.04为例)1.1 拉取镜像并更新ubuntu123docker pull ubuntu:18.04docker run -it ubuntu:18.04 bashapt-get update 1.2 安装openssh-server1apt-get install openssh-server 1.3 创建sshd文件夹并启动12m">
@@ -399,7 +399,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-12-20T20:33:35+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-20T21:29:32+08:00">
                 2018-12-20
               </time>
             
@@ -442,7 +442,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  245
+                  267
                 </span>
               
 
@@ -491,7 +491,9 @@
 <h3 id="1-8-退出容器"><a href="#1-8-退出容器" class="headerlink" title="1.8 退出容器"></a>1.8 退出容器</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">exit</span></span><br></pre></td></tr></table></figure>
 <h3 id="1-9-保存镜像"><a href="#1-9-保存镜像" class="headerlink" title="1.9 保存镜像"></a>1.9 保存镜像</h3><figure class="highlight docker"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker commit a9e sshd:ubuntu</span><br></pre></td></tr></table></figure>
 <h3 id="1-10-使用镜像"><a href="#1-10-使用镜像" class="headerlink" title="1.10 使用镜像"></a>1.10 使用镜像</h3><figure class="highlight docker"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="keyword">run</span><span class="bash"> -p 10022:22 -d sshd:ubuntu /run.sh</span></span><br></pre></td></tr></table></figure>
-
+<hr>
+<h2 id="2-使用Dockerfile创建"><a href="#2-使用Dockerfile创建" class="headerlink" title="2.使用Dockerfile创建"></a>2.使用Dockerfile创建</h2><h3 id="2-1-创建工作目录-Dockerfile-run-sh"><a href="#2-1-创建工作目录-Dockerfile-run-sh" class="headerlink" title="2.1 创建工作目录,Dockerfile,run.sh"></a>2.1 创建工作目录,Dockerfile,run.sh</h3><figure class="highlight docker"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir sshd_ubuntu</span><br><span class="line">touch Dockerfile <span class="keyword">run</span>.<span class="bash">sh</span></span><br></pre></td></tr></table></figure>
+<h3 id="2-2"><a href="#2-2" class="headerlink" title="2.2"></a>2.2</h3>
       
     </div>
     
@@ -742,7 +744,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-基于docker-commit命令创建-以ubuntu-18-04为例"><span class="nav-number">1.</span> <span class="nav-text">1.基于docker commit命令创建(以ubuntu:18.04为例)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-拉取镜像并更新ubuntu"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 拉取镜像并更新ubuntu</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-安装openssh-server"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 安装openssh-server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-3-创建sshd文件夹并启动"><span class="nav-number">1.3.</span> <span class="nav-text">1.3 创建sshd文件夹并启动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-4-查看端口映射情况"><span class="nav-number">1.4.</span> <span class="nav-text">1.4 查看端口映射情况</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-5-修改SSH服务的安全登录配置-取消pam登录限制"><span class="nav-number">1.5.</span> <span class="nav-text">1.5 修改SSH服务的安全登录配置,取消pam登录限制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-6-复制登录秘钥"><span class="nav-number">1.6.</span> <span class="nav-text">1.6 复制登录秘钥</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-7-创建自动启动ssh服务的可执行文件run-sh-并添加可执行权限"><span class="nav-number">1.7.</span> <span class="nav-text">1.7 创建自动启动ssh服务的可执行文件run.sh,并添加可执行权限</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#内容如下"><span class="nav-number">1.8.</span> <span class="nav-text">内容如下:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-8-退出容器"><span class="nav-number">1.9.</span> <span class="nav-text">1.8 退出容器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-9-保存镜像"><span class="nav-number">1.10.</span> <span class="nav-text">1.9 保存镜像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-10-使用镜像"><span class="nav-number">1.11.</span> <span class="nav-text">1.10 使用镜像</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-基于docker-commit命令创建-以ubuntu-18-04为例"><span class="nav-number">1.</span> <span class="nav-text">1.基于docker commit命令创建(以ubuntu:18.04为例)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-拉取镜像并更新ubuntu"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 拉取镜像并更新ubuntu</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-安装openssh-server"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 安装openssh-server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-3-创建sshd文件夹并启动"><span class="nav-number">1.3.</span> <span class="nav-text">1.3 创建sshd文件夹并启动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-4-查看端口映射情况"><span class="nav-number">1.4.</span> <span class="nav-text">1.4 查看端口映射情况</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-5-修改SSH服务的安全登录配置-取消pam登录限制"><span class="nav-number">1.5.</span> <span class="nav-text">1.5 修改SSH服务的安全登录配置,取消pam登录限制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-6-复制登录秘钥"><span class="nav-number">1.6.</span> <span class="nav-text">1.6 复制登录秘钥</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-7-创建自动启动ssh服务的可执行文件run-sh-并添加可执行权限"><span class="nav-number">1.7.</span> <span class="nav-text">1.7 创建自动启动ssh服务的可执行文件run.sh,并添加可执行权限</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#内容如下"><span class="nav-number">1.8.</span> <span class="nav-text">内容如下:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-8-退出容器"><span class="nav-number">1.9.</span> <span class="nav-text">1.8 退出容器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-9-保存镜像"><span class="nav-number">1.10.</span> <span class="nav-text">1.9 保存镜像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-10-使用镜像"><span class="nav-number">1.11.</span> <span class="nav-text">1.10 使用镜像</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-使用Dockerfile创建"><span class="nav-number">2.</span> <span class="nav-text">2.使用Dockerfile创建</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-创建工作目录-Dockerfile-run-sh"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 创建工作目录,Dockerfile,run.sh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2"><span class="nav-number">2.2.</span> <span class="nav-text">2.2</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -776,7 +778,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">4.9k</span>
+    <span title="Site words total count">5k</span>
   
 </div>
 
