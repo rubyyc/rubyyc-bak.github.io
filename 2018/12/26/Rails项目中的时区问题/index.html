@@ -93,18 +93,18 @@
 
 
 
-<meta name="description" content="1.查看主题时间,确保是你想要的时区1date 2.如果不是你想要的时区,可更改时区2.1 根据提示选择数字1tzselect 2.21cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 3.添加配置config/application.rb123config.time_zone = &apos;Beijing&apos; config.active_record.">
+<meta name="description" content="1.查看主机时间,确保是你想要的时区1date 2.如果不是你想要的时区,可更改时区2.1 根据提示选择数字1tzselect 2.21cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 3.添加配置config/application.rb123config.time_zone = &apos;Beijing&apos; config.active_record.">
 <meta name="keywords" content="Rails,时区">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Rails项目中的时区问题">
 <meta property="og:url" content="https://www.rubyc.cn/2018/12/26/Rails项目中的时区问题/index.html">
 <meta property="og:site_name" content="yuanchang">
-<meta property="og:description" content="1.查看主题时间,确保是你想要的时区1date 2.如果不是你想要的时区,可更改时区2.1 根据提示选择数字1tzselect 2.21cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 3.添加配置config/application.rb123config.time_zone = &apos;Beijing&apos; config.active_record.">
+<meta property="og:description" content="1.查看主机时间,确保是你想要的时区1date 2.如果不是你想要的时区,可更改时区2.1 根据提示选择数字1tzselect 2.21cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 3.添加配置config/application.rb123config.time_zone = &apos;Beijing&apos; config.active_record.">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-26T09:43:02.791Z">
+<meta property="og:updated_time" content="2018-12-26T12:54:38.705Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Rails项目中的时区问题">
-<meta name="twitter:description" content="1.查看主题时间,确保是你想要的时区1date 2.如果不是你想要的时区,可更改时区2.1 根据提示选择数字1tzselect 2.21cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 3.添加配置config/application.rb123config.time_zone = &apos;Beijing&apos; config.active_record.">
+<meta name="twitter:description" content="1.查看主机时间,确保是你想要的时区1date 2.如果不是你想要的时区,可更改时区2.1 根据提示选择数字1tzselect 2.21cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 3.添加配置config/application.rb123config.time_zone = &apos;Beijing&apos; config.active_record.">
 
 
 
@@ -399,7 +399,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-12-26T17:43:02+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-26T20:54:38+08:00">
                 2018-12-26
               </time>
             
@@ -479,7 +479,7 @@
       
 
       
-        <h3 id="1-查看主题时间-确保是你想要的时区"><a href="#1-查看主题时间-确保是你想要的时区" class="headerlink" title="1.查看主题时间,确保是你想要的时区"></a>1.查看主题时间,确保是你想要的时区</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">date</span><br></pre></td></tr></table></figure>
+        <h3 id="1-查看主机时间-确保是你想要的时区"><a href="#1-查看主机时间-确保是你想要的时区" class="headerlink" title="1.查看主机时间,确保是你想要的时区"></a>1.查看主机时间,确保是你想要的时区</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">date</span><br></pre></td></tr></table></figure>
 <h3 id="2-如果不是你想要的时区-可更改时区"><a href="#2-如果不是你想要的时区-可更改时区" class="headerlink" title="2.如果不是你想要的时区,可更改时区"></a>2.如果不是你想要的时区,可更改时区</h3><h4 id="2-1-根据提示选择数字"><a href="#2-1-根据提示选择数字" class="headerlink" title="2.1 根据提示选择数字"></a>2.1 根据提示选择数字</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tzselect</span><br></pre></td></tr></table></figure>
 <h4 id="2-2"><a href="#2-2" class="headerlink" title="2.2"></a>2.2</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime</span><br></pre></td></tr></table></figure>
 <h3 id="3-添加配置config-application-rb"><a href="#3-添加配置config-application-rb" class="headerlink" title="3.添加配置config/application.rb"></a>3.添加配置config/application.rb</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">config.time_zone = <span class="string">'Beijing'</span> </span><br><span class="line">config.active_record.default_timezone = :<span class="built_in">local</span></span><br><span class="line">config.active_record.time_zone_aware_attributes = <span class="literal">false</span></span><br></pre></td></tr></table></figure>
@@ -743,7 +743,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-查看主题时间-确保是你想要的时区"><span class="nav-number">1.</span> <span class="nav-text">1.查看主题时间,确保是你想要的时区</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-如果不是你想要的时区-可更改时区"><span class="nav-number">2.</span> <span class="nav-text">2.如果不是你想要的时区,可更改时区</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-根据提示选择数字"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 根据提示选择数字</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2"><span class="nav-number">2.2.</span> <span class="nav-text">2.2</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-添加配置config-application-rb"><span class="nav-number">3.</span> <span class="nav-text">3.添加配置config/application.rb</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-重启主机-重启项目即可"><span class="nav-number">4.</span> <span class="nav-text">4.重启主机,重启项目即可</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-查看主机时间-确保是你想要的时区"><span class="nav-number">1.</span> <span class="nav-text">1.查看主机时间,确保是你想要的时区</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-如果不是你想要的时区-可更改时区"><span class="nav-number">2.</span> <span class="nav-text">2.如果不是你想要的时区,可更改时区</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-根据提示选择数字"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 根据提示选择数字</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2"><span class="nav-number">2.2.</span> <span class="nav-text">2.2</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-添加配置config-application-rb"><span class="nav-number">3.</span> <span class="nav-text">3.添加配置config/application.rb</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-重启主机-重启项目即可"><span class="nav-number">4.</span> <span class="nav-text">4.重启主机,重启项目即可</span></a></li></ol></div>
             
 
           </div>
