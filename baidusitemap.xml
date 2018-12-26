@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.rubyc.cn/2018/12/26/Rails%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E6%97%B6%E5%8C%BA%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2018-12-26T09:43:02.791Z</lastmod>
+  </url>  <url>
     <loc>https://www.rubyc.cn/2018/12/08/%E3%80%8ARails5%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E3%80%8B%E4%B9%A6%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E5%8F%AF%E4%BB%A5%E6%94%B9%E8%BF%9B%E7%9A%84%E5%9C%B0%E6%96%B9/</loc>
     <lastmod>2018-12-22T08:04:28.387Z</lastmod>
   </url>  <url>
