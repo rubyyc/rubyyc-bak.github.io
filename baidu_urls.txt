@@ -1,3 +1,5 @@
+https://www.rubyc.cn/2018/12/28/ArgumentError-Missing-secret-key-base-for-production-environment-rails-credentials-edit/
+https://www.rubyc.cn/2018/12/27/Rails项目线上部署-以Ubuntu16-04系统为例/
 https://www.rubyc.cn/2018/12/26/Rails项目中的时区问题/
 https://www.rubyc.cn/2018/12/20/为Docker镜像添加ssh服务/
 https://www.rubyc.cn/2018/12/19/Ruby-on-Rails-小应用-暴力破解手机四位应用密码-并统计随机生成的密码信息/

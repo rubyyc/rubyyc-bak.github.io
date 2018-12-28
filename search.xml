@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[ArgumentError: Missing secret_key_base for production environment rails credentials:edit]]></title>
+    <url>%2F2018%2F12%2F28%2FArgumentError-Missing-secret-key-base-for-production-environment-rails-credentials-edit%2F</url>
+    <content type="text"><![CDATA[1.Rails在生产环境下报错1ArgumentError: Missing `secret_key_base` for 'production' environment, set this string with `rails credentials:edit` 主要原因是Rails 5.2开始config/secret.yml 变为master.key,在config下创建文件master.key,并写入一下内容12production: secret_key_base: &lt;%= ENV["SECRET_KEY_BASE"] %&gt;]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Rails项目线上部署--以Docker+Ubuntu16.04系统为例]]></title>
+    <url>%2F2018%2F12%2F27%2FRails%E9%A1%B9%E7%9B%AE%E7%BA%BF%E4%B8%8A%E9%83%A8%E7%BD%B2-%E4%BB%A5Ubuntu16-04%E7%B3%BB%E7%BB%9F%E4%B8%BA%E4%BE%8B%2F</url>
+    <content type="text"><![CDATA[1.拉取并运行容器1docker run -it ubuntu:16.04 bash 2.系统更新1sudo apt-get update 3.安装Rails12345sudo apt-get install apache2 curl git libmysqlclient-dev mysql-server nodejsgem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ # 换源sudo apt-get install ruby2.3 ruby2.3-devsudo gem install rails --version=5.2.2 --no-ri --no-rdoc 4.上面可能会报错.解决方法:12sudo apt-get install libxml2-dev libxslt-devsudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev 5.查看Rails版本1rails -v 6.安装bundler1gem install bundler 7. 克隆项目1git clone git@github.com:rubyyc/depot.git 8.安装依赖1bundle install 9.如果安装sqlite3报错1apt-get install sqlite3 libsqlite3-dev 然后1bundle install 10.安装Passenger12gem install passenger --version 5.0.29passenger install apache2-module 11.步骤10可能会有报错，不用担心,根据提示安装必要的依赖即可]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Rails项目中的时区问题]]></title>
     <url>%2F2018%2F12%2F26%2FRails%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E6%97%B6%E5%8C%BA%E9%97%AE%E9%A2%98%2F</url>
     <content type="text"><![CDATA[1.查看主机时间,确保是你想要的时区1date 2.如果不是你想要的时区,可更改时区2.1 根据提示选择数字1tzselect 2.21cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 3.添加配置config/application.rb123config.time_zone = 'Beijing' config.active_record.default_timezone = :localconfig.active_record.time_zone_aware_attributes = false 4.重启主机,重启项目即可]]></content>
       <tags>
-        <tag>Rails</tag>
         <tag>时区</tag>
+        <tag>Rails</tag>
       </tags>
   </entry>
   <entry>
