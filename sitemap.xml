@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.rubyc.cn/book/index.html</loc>
+    
+    <lastmod>2018-12-29T11:56:43.981Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.rubyc.cn/2018/12/28/ActiveSupport-MessageEncryptor-InvalidMessage-ActiveSupport-MessageEncryptor-InvalidMessage%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
+    
+    <lastmod>2018-12-28T11:55:45.082Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.rubyc.cn/2018/12/28/ArgumentError-Missing-secret-key-base-for-production-environment-rails-credentials-edit/</loc>
     
     <lastmod>2018-12-28T06:29:46.185Z</lastmod>
@@ -208,13 +222,6 @@
     <loc>https://www.rubyc.cn/software/index.html</loc>
     
     <lastmod>2018-10-13T13:33:54.539Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.rubyc.cn/book/index.html</loc>
-    
-    <lastmod>2018-10-13T08:38:48.580Z</lastmod>
     
   </url>
   

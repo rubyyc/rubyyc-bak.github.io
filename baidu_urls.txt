@@ -1,3 +1,4 @@
+https://www.rubyc.cn/2018/12/28/ActiveSupport-MessageEncryptor-InvalidMessage-ActiveSupport-MessageEncryptor-InvalidMessage的解决方案/
 https://www.rubyc.cn/2018/12/28/ArgumentError-Missing-secret-key-base-for-production-environment-rails-credentials-edit/
 https://www.rubyc.cn/2018/12/27/Rails项目线上部署-以Ubuntu16-04系统为例/
 https://www.rubyc.cn/2018/12/26/Rails项目中的时区问题/

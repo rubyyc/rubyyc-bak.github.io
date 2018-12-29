@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[ActiveSupport::MessageEncryptor::InvalidMessage: ActiveSupport::MessageEncryptor::InvalidMessage的解决方案]]></title>
+    <url>%2F2018%2F12%2F28%2FActiveSupport-MessageEncryptor-InvalidMessage-ActiveSupport-MessageEncryptor-InvalidMessage%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
+    <content type="text"><![CDATA[在部署Rails项目时遇到错误1ActiveSupport::MessageEncryptor::InvalidMessage: ActiveSupport::MessageEncryptor::InvalidMessage 解决办法1.删除config/master.key,credentials.yml.enc,运行1EDITOR="vim --wait" bin/rails credentials:edit]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[ArgumentError: Missing secret_key_base for production environment rails credentials:edit]]></title>
     <url>%2F2018%2F12%2F28%2FArgumentError-Missing-secret-key-base-for-production-environment-rails-credentials-edit%2F</url>
     <content type="text"><![CDATA[1.Rails在生产环境下报错1ArgumentError: Missing `secret_key_base` for 'production' environment, set this string with `rails credentials:edit` 主要原因是Rails 5.2开始config/secret.yml 变为master.key,在config下创建文件master.key,并写入一下内容12production: secret_key_base: &lt;%= ENV["SECRET_KEY_BASE"] %&gt;]]></content>
