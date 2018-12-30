@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[docker容器重启后命令不可用]]></title>
+    <url>%2F2018%2F12%2F30%2Fdocker%E5%AE%B9%E5%99%A8%E9%87%8D%E5%90%AF%E5%90%8E%E5%91%BD%E4%BB%A4%E4%B8%8D%E5%8F%AF%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[1.运行一个新容器1docker run -it --name=rails_api -v ~/rails/docker:/home/docker -p 3000:3000 -d ubuntu:16.04 2.安装了mysql,git,rvm,rails,并rails new wikicat,一切正常进行3.然后电脑关机，重启rails_api这个容器,发现rails，rvm,命令不能用12345678root@efac5241fe10:/home/docker/wikicat# rvmbash: rvm: command not foundroot@efac5241fe10:/home/docker/wikicat# railsbash: rails: command not foundroot@efac5241fe10:/home/docker/wikicat# gembash: gem: command not found 但是查了数据库，数据并没有丢失，而且系统历史命令也没丢失.请问问题出在哪地方？]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Rails API 开发环境搭建--以ubuntu16.04为例]]></title>
     <url>%2F2018%2F12%2F30%2FRails-API-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E4%BB%A5ubuntu16-04%E4%B8%BA%E4%BE%8B%2F</url>
     <content type="text"><![CDATA[0. 启动容器并共享文件(如果用docker,不用docker请略过这一步)1docker run -it --name=rails_api -v ~/rails/docker:/home/docker -p 3000:3000 -d ubuntu:16.04 2.安装RVM123456apt-get updateapt-get install curlcurl -sSL https://rvm.io/mpapis.asc | gpg --import -curl -sSL https://rvm.io/pkuczynski.asc | gpg --import -curl -L https://get.rvm.io | bash -s stablesource /etc/profile.d/rvm.sh 3.安装rvm所需系统依赖1rvm requirements --autolibs=enable 4.安装Ruby解释器(以ruby2.1.2为例)1rvm install 2.1.2 5.设置rvm使用的ruby版本1rvm use 2.1.2 6.安装Rails(以Rails4.1.4为例)1gem install rails --version=4.1.4 --no-ri --no-rdoc 7.安装git,mysql,nodejs1apt-get install vim git libmysqlclient-dev mysql-server nodejs 8.gem换源1gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ 9.安装rails-api1gem install rails-api 10.新建项目1rails-api new wikicat -d mysql 11.进入项目,初始化数据库12cd wikicatrake db:create 12. 步骤11可能会出错，原因是mysql2版本不匹配，更改Gemfile中mysql2的版本1gem 'mysql2', '0.3.17' 13.安装mysql21bundle install 14.再次初始化数据库1rake db:create 15.如果14出错,Couldn’t create database for {“adapter”=&gt;”mysql2”…等1service mysql restart 16.在运行14，如果还出错，请看错误信息的username与password是否配置正确 17.运行rails s1rails s 18. 步骤17可能会出错,” TZInfo::DataSourceNotFound Errors”,更改Gemfile文件12gem 'tzinfo-data'bundle update 大功告成]]></content>
@@ -25,8 +30,8 @@
     <url>%2F2018%2F12%2F26%2FRails%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E6%97%B6%E5%8C%BA%E9%97%AE%E9%A2%98%2F</url>
     <content type="text"><![CDATA[1.查看主机时间,确保是你想要的时区1date 2.如果不是你想要的时区,可更改时区2.1 根据提示选择数字1tzselect 2.21cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 3.添加配置config/application.rb123config.time_zone = 'Beijing' config.active_record.default_timezone = :localconfig.active_record.time_zone_aware_attributes = false 4.重启主机,重启项目即可]]></content>
       <tags>
-        <tag>时区</tag>
         <tag>Rails</tag>
+        <tag>时区</tag>
       </tags>
   </entry>
   <entry>
