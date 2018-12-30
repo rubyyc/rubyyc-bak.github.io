@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[docker容器重启后命令不可用]]></title>
     <url>%2F2018%2F12%2F30%2Fdocker%E5%AE%B9%E5%99%A8%E9%87%8D%E5%90%AF%E5%90%8E%E5%91%BD%E4%BB%A4%E4%B8%8D%E5%8F%AF%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[1.运行一个新容器1docker run -it --name=rails_api -v ~/rails/docker:/home/docker -p 3000:3000 -d ubuntu:16.04 2.安装了mysql,git,rvm,rails,并rails new wikicat,一切正常进行3.然后电脑关机，重启rails_api这个容器,发现rails，rvm,命令不能用12345678root@efac5241fe10:/home/docker/wikicat# rvmbash: rvm: command not foundroot@efac5241fe10:/home/docker/wikicat# railsbash: rails: command not foundroot@efac5241fe10:/home/docker/wikicat# gembash: gem: command not found 但是查了数据库，数据并没有丢失，而且系统历史命令也没丢失.请问问题出在哪地方？]]></content>
+    <content type="text"><![CDATA[1.运行一个新容器1docker run -it --name=rails_api -v ~/rails/docker:/home/docker -p 3000:3000 -d ubuntu:16.04 2.安装了mysql git rvm rails运行rails new wikicat 一切正常进行 3.然后电脑关机，重启rails_api这个容器,发现rails rvm命令不能用12345678root@efac5241fe10:/home/docker/wikicat# rvmbash: rvm: command not foundroot@efac5241fe10:/home/docker/wikicat# railsbash: rails: command not foundroot@efac5241fe10:/home/docker/wikicat# gembash: gem: command not found 查了数据库，数据并没有丢失，而且系统历史命令也没丢失.请问问题可能出在哪地方？]]></content>
   </entry>
   <entry>
     <title><![CDATA[Rails API 开发环境搭建--以ubuntu16.04为例]]></title>
