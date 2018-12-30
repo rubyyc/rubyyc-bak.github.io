@@ -101,10 +101,12 @@
 <meta property="og:site_name" content="yuanchang">
 <meta property="og:description" content="1.运行一个新容器1docker run -it --name=rails_api -v ~/rails/docker:/home/docker -p 3000:3000 -d ubuntu:16.04 2.安装了mysql git rvm rails运行rails new wikicat 一切正常进行3.然后电脑关机，重启rails_api这个容器,发现rails rvm命令不能用1234567">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-30T14:09:37.946Z">
+<meta property="og:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/login-shell.jpg">
+<meta property="og:updated_time" content="2018-12-30T14:24:26.940Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="docker容器重启后命令不可用">
 <meta name="twitter:description" content="1.运行一个新容器1docker run -it --name=rails_api -v ~/rails/docker:/home/docker -p 3000:3000 -d ubuntu:16.04 2.安装了mysql git rvm rails运行rails new wikicat 一切正常进行3.然后电脑关机，重启rails_api这个容器,发现rails rvm命令不能用1234567">
+<meta name="twitter:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/login-shell.jpg">
 
 
 
@@ -399,7 +401,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-12-30T22:09:37+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-30T22:24:26+08:00">
                 2018-12-30
               </time>
             
@@ -442,7 +444,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  128
+                  161
                 </span>
               
 
@@ -482,6 +484,9 @@
         <h3 id="1-运行一个新容器"><a href="#1-运行一个新容器" class="headerlink" title="1.运行一个新容器"></a>1.运行一个新容器</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -it --name=rails_api -v ~/rails/docker:/home/docker -p 3000:3000 -d ubuntu:16.04</span><br></pre></td></tr></table></figure>
 <h3 id="2-安装了mysql-git-rvm-rails"><a href="#2-安装了mysql-git-rvm-rails" class="headerlink" title="2.安装了mysql git rvm rails"></a>2.安装了mysql git rvm rails</h3><h3 id="运行rails-new-wikicat-一切正常进行"><a href="#运行rails-new-wikicat-一切正常进行" class="headerlink" title="运行rails new wikicat 一切正常进行"></a>运行rails new wikicat 一切正常进行</h3><h3 id="3-然后电脑关机，重启rails-api这个容器-发现rails-rvm命令不能用"><a href="#3-然后电脑关机，重启rails-api这个容器-发现rails-rvm命令不能用" class="headerlink" title="3.然后电脑关机，重启rails_api这个容器,发现rails rvm命令不能用"></a>3.然后电脑关机，重启rails_api这个容器,发现rails rvm命令不能用</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">root@efac5241fe10:/home/docker/wikicat<span class="comment"># rvm</span></span><br><span class="line">bash: rvm: <span class="built_in">command</span> not found</span><br><span class="line"></span><br><span class="line">root@efac5241fe10:/home/docker/wikicat<span class="comment"># rails</span></span><br><span class="line">bash: rails: <span class="built_in">command</span> not found</span><br><span class="line"></span><br><span class="line">root@efac5241fe10:/home/docker/wikicat<span class="comment"># gem</span></span><br><span class="line">bash: gem: <span class="built_in">command</span> not found</span><br></pre></td></tr></table></figure>
 <h3 id="查了数据库，数据并没有丢失，而且系统历史命令也没丢失"><a href="#查了数据库，数据并没有丢失，而且系统历史命令也没丢失" class="headerlink" title="查了数据库，数据并没有丢失，而且系统历史命令也没丢失."></a>查了数据库，数据并没有丢失，而且系统历史命令也没丢失.</h3><h3 id="请问问题可能出在哪地方？"><a href="#请问问题可能出在哪地方？" class="headerlink" title="请问问题可能出在哪地方？"></a>请问问题可能出在哪地方？</h3><hr>
+<h3 id="问题已解决-再次登录docker容器时加–login"><a href="#问题已解决-再次登录docker容器时加–login" class="headerlink" title="问题已解决,再次登录docker容器时加–login"></a>问题已解决,再次登录docker容器时加–login</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">exec</span> -it efa /bin/bash --login</span><br></pre></td></tr></table></figure>
+<p><img src="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/login-shell.jpg" alt="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/login-shell.jpg"></p>
+<h3 id="参考网站https-www-cnblogs-com-webnote-p-5876411-html"><a href="#参考网站https-www-cnblogs-com-webnote-p-5876411-html" class="headerlink" title="参考网站https://www.cnblogs.com/webnote/p/5876411.html"></a>参考网站<a><a href="https://www.cnblogs.com/webnote/p/5876411.html" target="_blank" rel="noopener">https://www.cnblogs.com/webnote/p/5876411.html</a><a></a></a></h3><hr>
 
       
     </div>
@@ -733,7 +738,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-运行一个新容器"><span class="nav-number">1.</span> <span class="nav-text">1.运行一个新容器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-安装了mysql-git-rvm-rails"><span class="nav-number">2.</span> <span class="nav-text">2.安装了mysql git rvm rails</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运行rails-new-wikicat-一切正常进行"><span class="nav-number">3.</span> <span class="nav-text">运行rails new wikicat 一切正常进行</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-然后电脑关机，重启rails-api这个容器-发现rails-rvm命令不能用"><span class="nav-number">4.</span> <span class="nav-text">3.然后电脑关机，重启rails_api这个容器,发现rails rvm命令不能用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查了数据库，数据并没有丢失，而且系统历史命令也没丢失"><span class="nav-number">5.</span> <span class="nav-text">查了数据库，数据并没有丢失，而且系统历史命令也没丢失.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#请问问题可能出在哪地方？"><span class="nav-number">6.</span> <span class="nav-text">请问问题可能出在哪地方？</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-运行一个新容器"><span class="nav-number">1.</span> <span class="nav-text">1.运行一个新容器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-安装了mysql-git-rvm-rails"><span class="nav-number">2.</span> <span class="nav-text">2.安装了mysql git rvm rails</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运行rails-new-wikicat-一切正常进行"><span class="nav-number">3.</span> <span class="nav-text">运行rails new wikicat 一切正常进行</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-然后电脑关机，重启rails-api这个容器-发现rails-rvm命令不能用"><span class="nav-number">4.</span> <span class="nav-text">3.然后电脑关机，重启rails_api这个容器,发现rails rvm命令不能用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查了数据库，数据并没有丢失，而且系统历史命令也没丢失"><span class="nav-number">5.</span> <span class="nav-text">查了数据库，数据并没有丢失，而且系统历史命令也没丢失.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#请问问题可能出在哪地方？"><span class="nav-number">6.</span> <span class="nav-text">请问问题可能出在哪地方？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#问题已解决-再次登录docker容器时加–login"><span class="nav-number">7.</span> <span class="nav-text">问题已解决,再次登录docker容器时加–login</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考网站https-www-cnblogs-com-webnote-p-5876411-html"><span class="nav-number">8.</span> <span class="nav-text">参考网站https://www.cnblogs.com/webnote/p/5876411.html</span></a></li></ol></div>
             
 
           </div>
