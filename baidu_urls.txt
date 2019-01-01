@@ -1,3 +1,4 @@
+https://www.rubyc.cn/2019/01/01/使用kitematic在容器配置项中添加一个端口映射后-原容器不见了/
 https://www.rubyc.cn/2018/12/30/docker容器重启后命令不可用/
 https://www.rubyc.cn/2018/12/30/Rails-API-开发环境搭建-以ubuntu16-04为例/
 https://www.rubyc.cn/2018/12/28/ActiveSupport-MessageEncryptor-InvalidMessage-ActiveSupport-MessageEncryptor-InvalidMessage的解决方案/
