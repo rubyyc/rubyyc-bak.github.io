@@ -93,18 +93,18 @@
 
 
 
-<meta name="description" content="启动或关闭MySQL服务1service start|stop mysql  MySQL登录123mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)mysql -Dmysql -hlocalhost -uroot -proot ##示例  ###12  ###12  ###12  ###12  ###12  ###">
+<meta name="description" content="启动或关闭MySQL服务1service start|stop mysql  MySQL登录123mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)mysql -Dmysql -hlocalhost -uroot -proot ## 示例  MySQL退出123exitquit\q — 修改提示符 ###12mys">
 <meta name="keywords" content="苑畅 Ruby on Rails 苑畅的博客 rubyc">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MySQL命令">
 <meta property="og:url" content="https://www.rubyc.cn/2019/01/04/MySQL命令/index.html">
 <meta property="og:site_name" content="yuanchang">
-<meta property="og:description" content="启动或关闭MySQL服务1service start|stop mysql  MySQL登录123mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)mysql -Dmysql -hlocalhost -uroot -proot ##示例  ###12  ###12  ###12  ###12  ###12  ###">
+<meta property="og:description" content="启动或关闭MySQL服务1service start|stop mysql  MySQL登录123mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)mysql -Dmysql -hlocalhost -uroot -proot ## 示例  MySQL退出123exitquit\q — 修改提示符 ###12mys">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-04T12:00:41.478Z">
+<meta property="og:updated_time" content="2019-01-04T12:08:12.263Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MySQL命令">
-<meta name="twitter:description" content="启动或关闭MySQL服务1service start|stop mysql  MySQL登录123mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)mysql -Dmysql -hlocalhost -uroot -proot ##示例  ###12  ###12  ###12  ###12  ###12  ###">
+<meta name="twitter:description" content="启动或关闭MySQL服务1service start|stop mysql  MySQL登录123mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)mysql -Dmysql -hlocalhost -uroot -proot ## 示例  MySQL退出123exitquit\q — 修改提示符 ###12mys">
 
 
 
@@ -399,7 +399,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-01-04T20:00:41+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-01-04T20:08:12+08:00">
                 2019-01-04
               </time>
             
@@ -442,7 +442,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  95
+                  151
                 </span>
               
 
@@ -481,11 +481,11 @@
       
         <h3 id="启动或关闭MySQL服务"><a href="#启动或关闭MySQL服务" class="headerlink" title="启动或关闭MySQL服务"></a>启动或关闭MySQL服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service start|stop mysql</span><br></pre></td></tr></table></figure>
 <hr>
-<h3 id="MySQL登录"><a href="#MySQL登录" class="headerlink" title="MySQL登录"></a>MySQL登录</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)</span><br><span class="line"></span><br><span class="line">mysql -Dmysql -hlocalhost -uroot -proot ##示例</span><br></pre></td></tr></table></figure>
+<h3 id="MySQL登录"><a href="#MySQL登录" class="headerlink" title="MySQL登录"></a>MySQL登录</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)</span><br><span class="line"></span><br><span class="line">mysql -Dmysql -hlocalhost -uroot -proot ## 示例</span><br></pre></td></tr></table></figure>
 <hr>
-<p>###<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
-<hr>
-<p>###<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
+<h3 id="MySQL退出"><a href="#MySQL退出" class="headerlink" title="MySQL退出"></a>MySQL退出</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">exit</span><br><span class="line">quit</span><br><span class="line">\q</span><br></pre></td></tr></table></figure>
+<p>— 修改提示符</p>
+<p>###<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mysql -uroot -proot <span class="comment">--prompt 提示符 # 连接客户端时使用</span></span><br><span class="line">prompt 提示符 | \D(完整日期) | \d(当前数据库) | \h(服务器名称) | \u(当前用户) # 连上客户端后使用</span><br></pre></td></tr></table></figure></p>
 <hr>
 <p>###<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
 <hr>
@@ -860,7 +860,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#启动或关闭MySQL服务"><span class="nav-number">1.</span> <span class="nav-text">启动或关闭MySQL服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MySQL登录"><span class="nav-number">2.</span> <span class="nav-text">MySQL登录</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#启动或关闭MySQL服务"><span class="nav-number">1.</span> <span class="nav-text">启动或关闭MySQL服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MySQL登录"><span class="nav-number">2.</span> <span class="nav-text">MySQL登录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MySQL退出"><span class="nav-number">3.</span> <span class="nav-text">MySQL退出</span></a></li></ol></div>
             
 
           </div>
@@ -894,7 +894,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">6.5k</span>
+    <span title="Site words total count">6.6k</span>
   
 </div>
 
