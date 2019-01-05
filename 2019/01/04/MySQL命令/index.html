@@ -93,18 +93,18 @@
 
 
 
-<meta name="description" content="启动或关闭MySQL服务1service start|stop mysql  MySQL登录123mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)mysql -Dmysql -hlocalhost -uroot -proot ## 示例  MySQL退出123exitquit\q — 修改提示符 ###12mys">
+<meta name="description" content="启动或关闭MySQL服务1service start|stop mysql  MySQL登录123mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)mysql -Dmysql -hlocalhost -uroot -proot ## 示例  MySQL退出123exitquit\q  修改提示符12mysql -u">
 <meta name="keywords" content="苑畅 Ruby on Rails 苑畅的博客 rubyc">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MySQL命令">
 <meta property="og:url" content="https://www.rubyc.cn/2019/01/04/MySQL命令/index.html">
 <meta property="og:site_name" content="yuanchang">
-<meta property="og:description" content="启动或关闭MySQL服务1service start|stop mysql  MySQL登录123mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)mysql -Dmysql -hlocalhost -uroot -proot ## 示例  MySQL退出123exitquit\q — 修改提示符 ###12mys">
+<meta property="og:description" content="启动或关闭MySQL服务1service start|stop mysql  MySQL登录123mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)mysql -Dmysql -hlocalhost -uroot -proot ## 示例  MySQL退出123exitquit\q  修改提示符12mysql -u">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-04T12:08:12.263Z">
+<meta property="og:updated_time" content="2019-01-04T12:42:30.179Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MySQL命令">
-<meta name="twitter:description" content="启动或关闭MySQL服务1service start|stop mysql  MySQL登录123mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)mysql -Dmysql -hlocalhost -uroot -proot ## 示例  MySQL退出123exitquit\q — 修改提示符 ###12mys">
+<meta name="twitter:description" content="启动或关闭MySQL服务1service start|stop mysql  MySQL登录123mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)mysql -Dmysql -hlocalhost -uroot -proot ## 示例  MySQL退出123exitquit\q  修改提示符12mysql -u">
 
 
 
@@ -399,7 +399,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-01-04T20:08:12+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-01-04T20:42:30+08:00">
                 2019-01-04
               </time>
             
@@ -442,7 +442,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  151
+                  287
                 </span>
               
 
@@ -484,8 +484,16 @@
 <h3 id="MySQL登录"><a href="#MySQL登录" class="headerlink" title="MySQL登录"></a>MySQL登录</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql -D(database-name) -h(host) -u(username) -p(password) -P(port)</span><br><span class="line"></span><br><span class="line">mysql -Dmysql -hlocalhost -uroot -proot ## 示例</span><br></pre></td></tr></table></figure>
 <hr>
 <h3 id="MySQL退出"><a href="#MySQL退出" class="headerlink" title="MySQL退出"></a>MySQL退出</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">exit</span><br><span class="line">quit</span><br><span class="line">\q</span><br></pre></td></tr></table></figure>
-<p>— 修改提示符</p>
-<p>###<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mysql -uroot -proot <span class="comment">--prompt 提示符 # 连接客户端时使用</span></span><br><span class="line">prompt 提示符 | \D(完整日期) | \d(当前数据库) | \h(服务器名称) | \u(当前用户) # 连上客户端后使用</span><br></pre></td></tr></table></figure></p>
+<hr>
+<h3 id="修改提示符"><a href="#修改提示符" class="headerlink" title="修改提示符"></a>修改提示符</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mysql -uroot -proot <span class="comment">--prompt 提示符 # 连接客户端时使用</span></span><br><span class="line">prompt 提示符 | \D(完整日期) | \d(当前数据库) | \h(服务器名称) | \u(当前用户) # 连上客户端后使用</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="常用简单命令"><a href="#常用简单命令" class="headerlink" title="常用简单命令"></a>常用简单命令</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SELECT VERSION(); # 显示当前服务器版本</span><br><span class="line">SELECT NOW(); # 显示当前日期时间</span><br><span class="line">SELECT USER(); # 显示当前用户</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="创建数据库"><a href="#创建数据库" class="headerlink" title="创建数据库"></a>创建数据库</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> &#123;<span class="keyword">DATABASE</span> | <span class="keyword">SCHEMA</span>&#125; [<span class="keyword">IF</span> <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> ] db_name [<span class="keyword">DEFAULT</span>]</span><br><span class="line"><span class="built_in">CHARACTER</span> <span class="keyword">SET</span> [=] charset_name</span><br><span class="line">CREATE DATABASE test; # 示例</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="查看当前服务器下的数据表列表"><a href="#查看当前服务器下的数据表列表" class="headerlink" title="查看当前服务器下的数据表列表"></a>查看当前服务器下的数据表列表</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SHOW</span> &#123;<span class="keyword">DATABASES</span> | SCHEMAS &#125; [<span class="keyword">LIKE</span> <span class="string">'pattern'</span> | <span class="keyword">WHERE</span> expr]</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="显示数据库创建时的指令是什么"><a href="#显示数据库创建时的指令是什么" class="headerlink" title="显示数据库创建时的指令是什么"></a>显示数据库创建时的指令是什么</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SHOW</span> <span class="keyword">CREATE</span> <span class="keyword">DATABASE</span> <span class="keyword">test</span>;</span><br></pre></td></tr></table></figure>
 <hr>
 <p>###<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
 <hr>
@@ -599,17 +607,7 @@
 <hr>
 <p>###<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
 <hr>
-<p>###<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
-<hr>
-<p>###<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
-<hr>
-<p>###<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
-<hr>
-<p>###<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
-<hr>
-<p>###<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
-<hr>
-
+<h3 id="MySQL语句规范"><a href="#MySQL语句规范" class="headerlink" title="MySQL语句规范"></a>MySQL语句规范</h3><h4 id="关键字与函数名称全部大写"><a href="#关键字与函数名称全部大写" class="headerlink" title="关键字与函数名称全部大写"></a>关键字与函数名称全部大写</h4><h4 id="数据库名称、表名称、字段名称全部小写"><a href="#数据库名称、表名称、字段名称全部小写" class="headerlink" title="数据库名称、表名称、字段名称全部小写"></a>数据库名称、表名称、字段名称全部小写</h4><h4 id="SQL语句必须以分号结尾"><a href="#SQL语句必须以分号结尾" class="headerlink" title="SQL语句必须以分号结尾"></a>SQL语句必须以分号结尾</h4>
       
     </div>
     
@@ -860,7 +858,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#启动或关闭MySQL服务"><span class="nav-number">1.</span> <span class="nav-text">启动或关闭MySQL服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MySQL登录"><span class="nav-number">2.</span> <span class="nav-text">MySQL登录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MySQL退出"><span class="nav-number">3.</span> <span class="nav-text">MySQL退出</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#启动或关闭MySQL服务"><span class="nav-number">1.</span> <span class="nav-text">启动或关闭MySQL服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MySQL登录"><span class="nav-number">2.</span> <span class="nav-text">MySQL登录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MySQL退出"><span class="nav-number">3.</span> <span class="nav-text">MySQL退出</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改提示符"><span class="nav-number">4.</span> <span class="nav-text">修改提示符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用简单命令"><span class="nav-number">5.</span> <span class="nav-text">常用简单命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建数据库"><span class="nav-number">6.</span> <span class="nav-text">创建数据库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看当前服务器下的数据表列表"><span class="nav-number">7.</span> <span class="nav-text">查看当前服务器下的数据表列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#显示数据库创建时的指令是什么"><span class="nav-number">8.</span> <span class="nav-text">显示数据库创建时的指令是什么</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MySQL语句规范"><span class="nav-number">9.</span> <span class="nav-text">MySQL语句规范</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#关键字与函数名称全部大写"><span class="nav-number">9.1.</span> <span class="nav-text">关键字与函数名称全部大写</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#数据库名称、表名称、字段名称全部小写"><span class="nav-number">9.2.</span> <span class="nav-text">数据库名称、表名称、字段名称全部小写</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#SQL语句必须以分号结尾"><span class="nav-number">9.3.</span> <span class="nav-text">SQL语句必须以分号结尾</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -894,7 +892,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">6.6k</span>
+    <span title="Site words total count">6.7k</span>
   
 </div>
 
