@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.rubyc.cn/book/index.html</loc>
+    
+    <lastmod>2019-01-12T08:33:56.980Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.rubyc.cn/2019/01/08/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8Fdisplay-flex-%E4%B8%8D%E8%B5%B7%E4%BD%9C%E7%94%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
     
     <lastmod>2019-01-08T13:15:37.147Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>https://www.rubyc.cn/2018/12/30/docker%E5%AE%B9%E5%99%A8%E9%87%8D%E5%90%AF%E5%90%8E%E5%91%BD%E4%BB%A4%E4%B8%8D%E5%8F%AF%E7%94%A8/</loc>
     
     <lastmod>2018-12-30T14:25:38.410Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.rubyc.cn/book/index.html</loc>
-    
-    <lastmod>2018-12-30T14:09:08.523Z</lastmod>
     
   </url>
   
