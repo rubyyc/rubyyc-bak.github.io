@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Ruby中的角色装换]]></title>
+    <url>%2F2019%2F03%2F01%2FRuby%E4%B8%AD%E7%9A%84%E8%A7%92%E8%89%B2%E8%A3%85%E6%8D%A2%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516171819202122class Person attr_accessor :name, :age, :email # 字符串相加时自动调用to_str方法 def to_str name end # 将对象视为数组操作 def to_ary [name, age, email] endenddavid = Person.newdavid.name = "David"david.age = 55david.email = "759337828@qq.com"puts "david is named " + david + " ."array = []array.concat(david)p array]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Ruby自定义一元运算符]]></title>
     <url>%2F2019%2F03%2F01%2FRuby%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%80%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6%2F</url>
     <content type="text"><![CDATA[12345678910111213141516171819202122232425262728class Banner def initialize(text) @text = text end def to_s @text end def +@ @text.upcase end def -@ @text.downcase end def ! @text.reverse endendbanner =Banner.new("Eat at yuanchang")puts bannerputs +bannerputs -bannerputs !bannerputs (not banner)]]></content>
@@ -55,8 +60,8 @@
     <url>%2F2018%2F12%2F26%2FRails%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E6%97%B6%E5%8C%BA%E9%97%AE%E9%A2%98%2F</url>
     <content type="text"><![CDATA[1.查看主机时间,确保是你想要的时区1date 2.如果不是你想要的时区,可更改时区2.1 根据提示选择数字1tzselect 2.21cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 3.添加配置config/application.rb123config.time_zone = 'Beijing' config.active_record.default_timezone = :localconfig.active_record.time_zone_aware_attributes = false 4.重启主机,重启项目即可]]></content>
       <tags>
-        <tag>时区</tag>
         <tag>Rails</tag>
+        <tag>时区</tag>
       </tags>
   </entry>
   <entry>
