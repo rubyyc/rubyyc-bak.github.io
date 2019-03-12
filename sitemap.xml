@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.rubyc.cn/2019/03/12/Rails-%E8%BF%9E%E6%8E%A5mysql%E7%9A%84%E9%85%8D%E7%BD%AE/</loc>
+    
+    <lastmod>2019-03-12T09:50:05.543Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.rubyc.cn/2019/03/09/Ruby%E7%A8%8B%E5%BA%8F%E6%8A%A5%E9%94%99-en-is-not-a-valid-locale-I18n-InvalidLocale-%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
     
     <lastmod>2019-03-09T09:30:47.870Z</lastmod>

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Rails 连接mysql的配置]]></title>
+    <url>%2F2019%2F03%2F12%2FRails-%E8%BF%9E%E6%8E%A5mysql%E7%9A%84%E9%85%8D%E7%BD%AE%2F</url>
+    <content type="text"><![CDATA[1.安装mysql1sudo apt-get install mysql-server mysql-common mysql-client libmysqlclient-dev 2.安裝MySQL Adapter1gem install mysql2 3.修改Gemfile1gem 'mysql2', '0.3.17' 4.安装1bundle install 5.更改config/database.yml12345678910111213141516171819default: &amp;default adapter: mysql2 pool: 5 timeout: 5000 username: root password: your-password socket: /var/run/mysqld/mysqld.sockdevelopment: &lt;&lt;: *default database: db/development.mysql2test: &lt;&lt;: *default database: db/test.mysql2production: &lt;&lt;: *default database: db/production.mysql2 6.创建数据库1rake db:create 7.运行1rails s]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Ruby程序报错 ':en is not a valid locale (I18n::InvalidLocale)'的解决办法]]></title>
     <url>%2F2019%2F03%2F09%2FRuby%E7%A8%8B%E5%BA%8F%E6%8A%A5%E9%94%99-en-is-not-a-valid-locale-I18n-InvalidLocale-%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%2F</url>
     <content type="text"><![CDATA[12345require "monetize"bargain_price = Monetize.from_numeric(99, "USD")puts bargain_price.format 运行后报错12345678910111213yuanchangdeMacBook-Pro:2 yuanchang$ ruby monetize_example.rb [DEPRECATION] You are using the default localization behaviour that will change in the next major release. Find out more - https://github.com/RubyMoney/money#deprecation/Library/Ruby/Gems/2.3.0/gems/i18n-1.5.1/lib/i18n.rb:311:in `enforce_available_locales!': :en is not a valid locale (I18n::InvalidLocale) from /Library/Ruby/Gems/2.3.0/gems/i18n-1.5.1/lib/i18n.rb:179:in `translate' from /Library/Ruby/Gems/2.3.0/gems/money-6.13.2/lib/money/locale_backend/i18n.rb:19:in `lookup' from /Library/Ruby/Gems/2.3.0/gems/money-6.13.2/lib/money/locale_backend/legacy.rb:15:in `lookup' from /Library/Ruby/Gems/2.3.0/gems/money-6.13.2/lib/money/money/formatter.rb:366:in `lookup' from /Library/Ruby/Gems/2.3.0/gems/money-6.13.2/lib/money/money/formatter.rb:238:in `thousands_separator' from /Library/Ruby/Gems/2.3.0/gems/money-6.13.2/lib/money/money/formatter.rb:333:in `format_whole_part' from /Library/Ruby/Gems/2.3.0/gems/money-6.13.2/lib/money/money/formatter.rb:257:in `format_number' from /Library/Ruby/Gems/2.3.0/gems/money-6.13.2/lib/money/money/formatter.rb:232:in `to_s' from /Library/Ruby/Gems/2.3.0/gems/money-6.13.2/lib/money/money.rb:557:in `format' from monetize_example.rb:3:in `&lt;main&gt;' 报错原因主要是因为i18n配置问题,默认的语言与想要使用的语言不同,因此可以更改默认的语言123456789require "monetize"require 'i18n'I18n.enforce_available_locales = falseI18n.default_locale = :enbargain_price = Monetize.from_numeric(99, "USD")puts bargain_price.format 解决问题1234yuanchangdeMacBook-Pro:2 yuanchang$ ruby monetize_example.rb [DEPRECATION] You are using the default localization behaviour that will change in the next major release. Find out more - https://github.com/RubyMoney/money#deprecation[DEPRECATION] You are using the default localization behaviour that will change in the next major release. Find out more - https://github.com/RubyMoney/money#deprecation$99.00]]></content>
@@ -70,8 +75,8 @@
     <url>%2F2018%2F12%2F26%2FRails%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E6%97%B6%E5%8C%BA%E9%97%AE%E9%A2%98%2F</url>
     <content type="text"><![CDATA[1.查看主机时间,确保是你想要的时区1date 2.如果不是你想要的时区,可更改时区2.1 根据提示选择数字1tzselect 2.21cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 3.添加配置config/application.rb123config.time_zone = 'Beijing' config.active_record.default_timezone = :localconfig.active_record.time_zone_aware_attributes = false 4.重启主机,重启项目即可]]></content>
       <tags>
-        <tag>时区</tag>
         <tag>Rails</tag>
+        <tag>时区</tag>
       </tags>
   </entry>
   <entry>
