@@ -1,3 +1,4 @@
+https://www.rubyc.cn/2019/03/13/Rails-让所有用户可以访问Web控制器/
 https://www.rubyc.cn/2019/03/12/Rails-连接mysql的配置/
 https://www.rubyc.cn/2019/03/09/Ruby程序报错-en-is-not-a-valid-locale-I18n-InvalidLocale-的解决办法/
 https://www.rubyc.cn/2019/03/01/Ruby中的飞船运算符/
