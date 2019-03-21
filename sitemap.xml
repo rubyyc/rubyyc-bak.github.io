@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.rubyc.cn/2019/01/04/MySQL%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2019-03-21T06:30:13.750Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.rubyc.cn/2018/09/28/%E5%AD%A6%E4%B9%A0MySQL/</loc>
     
     <lastmod>2019-03-21T05:04:42.699Z</lastmod>
@@ -82,13 +89,6 @@
     <loc>https://www.rubyc.cn/nonsense/index.html</loc>
     
     <lastmod>2019-01-06T06:06:44.461Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.rubyc.cn/2019/01/04/MySQL%E5%91%BD%E4%BB%A4/</loc>
-    
-    <lastmod>2019-01-05T14:16:00.964Z</lastmod>
     
   </url>
   
