@@ -39,7 +39,7 @@ https://www.rubyc.cn/2018/10/14/设计模式/
 https://www.rubyc.cn/2018/10/14/Error-xcrun-error-invalid-active-developer-path-Library-Developer-CommandLineTools-missing-xcrun-at-Library-Developer-CommandLineTools-usr-bin-xcrun/
 https://www.rubyc.cn/2018/10/14/升级Mojave-出现安装macOS时发生错误/
 https://www.rubyc.cn/2018/10/11/不蒜子404错误解决方案/
-https://www.rubyc.cn/2018/09/28/js/
+https://www.rubyc.cn/2018/09/28/学习MySQL/
 https://www.rubyc.cn/2018/09/28/css/
 https://www.rubyc.cn/2018/09/28/html/
 https://www.rubyc.cn/2018/09/28/angular/

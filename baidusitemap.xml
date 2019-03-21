@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.rubyc.cn/2018/09/28/%E5%AD%A6%E4%B9%A0MySQL/</loc>
+    <lastmod>2019-03-21T05:04:42.699Z</lastmod>
+  </url>  <url>
     <loc>https://www.rubyc.cn/2019/03/13/Rails-%E8%AE%A9%E6%89%80%E6%9C%89%E7%94%A8%E6%88%B7%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AEWeb%E6%8E%A7%E5%88%B6%E5%99%A8/</loc>
     <lastmod>2019-03-13T13:05:07.734Z</lastmod>
   </url>  <url>
@@ -126,9 +129,6 @@
   </url>  <url>
     <loc>https://www.rubyc.cn/2018/10/11/%E4%B8%8D%E8%92%9C%E5%AD%90404%E9%94%99%E8%AF%AF%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
     <lastmod>2018-10-12T07:25:36.258Z</lastmod>
-  </url>  <url>
-    <loc>https://www.rubyc.cn/2018/09/28/js/</loc>
-    <lastmod>2018-09-28T12:37:07.224Z</lastmod>
   </url>  <url>
     <loc>https://www.rubyc.cn/2018/09/28/css/</loc>
     <lastmod>2018-09-28T12:37:07.220Z</lastmod>
