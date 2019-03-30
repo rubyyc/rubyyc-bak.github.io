@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.rubyc.cn/2019/03/30/rails%E5%90%AF%E5%8A%A8%E6%97%B6%E6%8A%A5%E9%94%99-Gem-LoadError-Specified-sqlite3-for-database-adapter-but-the-gem-is-not-loaded-Add-to-your-Gemfile-and-ensure-its-version-is-at-the-minimum-required-by-ActiveRecord/</loc>
+    <lastmod>2019-03-30T15:05:06.060Z</lastmod>
+  </url>  <url>
     <loc>https://www.rubyc.cn/2019/01/04/MySQL%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2019-03-21T07:19:10.713Z</lastmod>
+    <lastmod>2019-03-21T08:53:55.770Z</lastmod>
   </url>  <url>
     <loc>https://www.rubyc.cn/2018/09/28/%E5%AD%A6%E4%B9%A0MySQL/</loc>
     <lastmod>2019-03-21T05:04:42.699Z</lastmod>
