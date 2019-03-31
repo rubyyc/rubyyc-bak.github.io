@@ -1,3 +1,4 @@
+https://www.rubyc.cn/2019/03/31/git-Key-is-already-in-use-的解决方案/
 https://www.rubyc.cn/2019/03/30/rails启动时报错-Gem-LoadError-Specified-sqlite3-for-database-adapter-but-the-gem-is-not-loaded-Add-to-your-Gemfile-and-ensure-its-version-is-at-the-minimum-required-by-ActiveRecord/
 https://www.rubyc.cn/2019/03/13/Rails-让所有用户可以访问Web控制器/
 https://www.rubyc.cn/2019/03/12/Rails-连接mysql的配置/
