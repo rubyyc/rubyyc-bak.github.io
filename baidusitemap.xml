@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.rubyc.cn/2019/03/31/git-Key-is-already-in-use-%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
+    <lastmod>2019-03-31T06:32:15.414Z</lastmod>
+  </url>  <url>
     <loc>https://www.rubyc.cn/2019/03/30/rails%E5%90%AF%E5%8A%A8%E6%97%B6%E6%8A%A5%E9%94%99-Gem-LoadError-Specified-sqlite3-for-database-adapter-but-the-gem-is-not-loaded/</loc>
     <lastmod>2019-03-31T06:10:13.691Z</lastmod>
-  </url>  <url>
-    <loc>https://www.rubyc.cn/2019/03/31/git-Key-is-already-in-use-%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
-    <lastmod>2019-03-31T05:37:25.342Z</lastmod>
   </url>  <url>
     <loc>https://www.rubyc.cn/2019/01/04/MySQL%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2019-03-21T08:53:55.770Z</lastmod>
