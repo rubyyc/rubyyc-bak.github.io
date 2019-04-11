@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.rubyc.cn/2019/04/11/%E6%8B%9B%E9%A9%AC%E7%BD%91-%E6%89%BE%E5%B7%A5%E4%BD%9C%E7%BD%91%E7%AB%99%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2019-04-11T07:37:16.942Z</lastmod>
+  </url>  <url>
+    <loc>https://www.rubyc.cn/2019/04/11/%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5API%E6%8E%A5%E5%8F%A3%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2019-04-11T07:36:17.459Z</lastmod>
+  </url>  <url>
+    <loc>https://www.rubyc.cn/2019/04/09/Atom%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6/</loc>
+    <lastmod>2019-04-09T04:49:12.996Z</lastmod>
+  </url>  <url>
+    <loc>https://www.rubyc.cn/2019/04/09/simple-form-for%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E5%B5%8C%E5%A5%97%E8%B7%AF%E7%94%B1/</loc>
+    <lastmod>2019-04-09T04:48:58.818Z</lastmod>
+  </url>  <url>
+    <loc>https://www.rubyc.cn/2019/04/09/Atom%E7%BC%96%E8%BE%91%E5%99%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <lastmod>2019-04-09T04:48:24.810Z</lastmod>
+  </url>  <url>
+    <loc>https://www.rubyc.cn/2019/04/07/Rails%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E7%94%A8gem%E7%9A%84%E5%8A%9F%E8%83%BD%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2019-04-07T08:03:50.711Z</lastmod>
+  </url>  <url>
     <loc>https://www.rubyc.cn/2019/04/01/heroku%E9%83%A8%E7%BD%B2Rails%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2019-04-01T09:46:16.585Z</lastmod>
   </url>  <url>

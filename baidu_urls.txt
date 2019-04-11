@@ -1,3 +1,9 @@
+https://www.rubyc.cn/2019/04/11/招马网-找工作网站项目/
+https://www.rubyc.cn/2019/04/11/天气预报API接口项目/
+https://www.rubyc.cn/2019/04/09/Atom常用插件/
+https://www.rubyc.cn/2019/04/09/simple-form-for如何处理嵌套路由/
+https://www.rubyc.cn/2019/04/09/Atom编辑器快捷键/
+https://www.rubyc.cn/2019/04/07/Rails开发中常用gem的功能与使用方法/
 https://www.rubyc.cn/2019/04/01/heroku部署Rails项目/
 https://www.rubyc.cn/2019/04/01/gem-install-pg安装失败的解决办法/
 https://www.rubyc.cn/2019/03/31/git-Key-is-already-in-use-的解决方案/
