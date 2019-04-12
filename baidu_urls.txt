@@ -1,3 +1,4 @@
+https://www.rubyc.cn/2019/04/11/谷歌浏览器插件推荐/
 https://www.rubyc.cn/2019/04/11/招马网-找工作网站项目/
 https://www.rubyc.cn/2019/04/11/天气预报API接口项目/
 https://www.rubyc.cn/2019/04/09/Atom常用插件/
