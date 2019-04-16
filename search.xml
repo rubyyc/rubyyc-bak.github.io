@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Failed to manipulate with MiniMagick, maybe it is not an image? Original Error: You must have Image....]]></title>
     <url>%2F2019%2F04%2F16%2FFailed-to-manipulate-with-MiniMagick-maybe-it-is-not-an-image-Original-Error-You-must-have-Image%2F</url>
-    <content type="text"><![CDATA[错误信息如下“Failed to manipulate with MiniMagick, maybe it is not an image? Original Error: You must have ImageMagick or GraphicsMagick installed” 主要原因是服务器未安装图片处理的包在Ubuntu系统下1sudo apt-get install imagemagick]]></content>
+    <content type="text"><![CDATA[使用carrierwave报错,错误信息如下“Failed to manipulate with MiniMagick, maybe it is not an image? Original Error: You must have ImageMagick or GraphicsMagick installed” 主要原因是服务器未安装图片处理的包在Ubuntu系统下1sudo apt-get install imagemagick]]></content>
   </entry>
   <entry>
     <title><![CDATA[使用carrierwave报错:undefined method avatar_will_change!的解决办法]]></title>
