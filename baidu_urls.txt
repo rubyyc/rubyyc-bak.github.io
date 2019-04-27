@@ -1,3 +1,4 @@
+https://www.rubyc.cn/2019/04/27/Rails项目出现ExecJS-RuntimeError-execjs-1的解决办法/
 https://www.rubyc.cn/2019/04/16/Failed-to-manipulate-with-MiniMagick-maybe-it-is-not-an-image-Original-Error-You-must-have-Image/
 https://www.rubyc.cn/2019/04/16/使用carrierwave报错-undefined-method-avatar-will-change-的解决办法/
 https://www.rubyc.cn/2019/04/11/谷歌浏览器插件推荐/
