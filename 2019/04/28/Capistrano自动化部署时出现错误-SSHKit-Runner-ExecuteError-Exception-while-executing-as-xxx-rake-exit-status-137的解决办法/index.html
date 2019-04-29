@@ -82,7 +82,7 @@
 
 
 
-  <meta name="keywords" content="Mojave macOS升级 解决方案," />
+  <meta name="keywords" content="Rails,Capistrano," />
 
 
 
@@ -93,21 +93,18 @@
 
 
 
-<meta name="description" content="升级Mojave,出现安装macOS时发生错误的解决方案 解决方法:系统偏好设置-&amp;gt;网络-&amp;gt;高级-&amp;gt;DNS-&amp;gt;改成8.8.8.8………………..………………..本以为这样就可以了，然而等了半个小时后还是无法验证macOS，然后上网搜了一堆解决方案，各种设置，重启，重新下载，安全模式等，都是碰巧。从错误提示分析，无法验证xxx，估计网络不好或者信息不匹配，信息不匹配不容易找具">
-<meta name="keywords" content="Mojave macOS升级 解决方案">
+<meta name="description" content="Capistrano自动化部署时进行静态编译时出现错误: SSHKit::Runner::ExecuteError: Exception while executing as xxx: rake exit status: 137的解决办法一般这种情况会出现在云服务主机上,因为内存小,云主机默认的swap空间为0,因此会出现内存,从而导致出错。因此需要给服务器配置swap空间具体步骤查看系统当前的分">
+<meta name="keywords" content="Rails,Capistrano">
 <meta property="og:type" content="article">
-<meta property="og:title" content="升级Mojave,出现安装macOS时发生错误或者无法验证macOS">
-<meta property="og:url" content="https://www.rubyc.cn/2018/10/14/升级Mojave-出现安装macOS时发生错误/index.html">
+<meta property="og:title" content="Capistrano自动化部署时出现错误: SSHKit::Runner::ExecuteError: Exception while executing as xxx: rake exit status: 137的解决办法">
+<meta property="og:url" content="https://www.rubyc.cn/2019/04/28/Capistrano自动化部署时出现错误-SSHKit-Runner-ExecuteError-Exception-while-executing-as-xxx-rake-exit-status-137的解决办法/index.html">
 <meta property="og:site_name" content="yuanchang">
-<meta property="og:description" content="升级Mojave,出现安装macOS时发生错误的解决方案 解决方法:系统偏好设置-&amp;gt;网络-&amp;gt;高级-&amp;gt;DNS-&amp;gt;改成8.8.8.8………………..………………..本以为这样就可以了，然而等了半个小时后还是无法验证macOS，然后上网搜了一堆解决方案，各种设置，重启，重新下载，安全模式等，都是碰巧。从错误提示分析，无法验证xxx，估计网络不好或者信息不匹配，信息不匹配不容易找具">
+<meta property="og:description" content="Capistrano自动化部署时进行静态编译时出现错误: SSHKit::Runner::ExecuteError: Exception while executing as xxx: rake exit status: 137的解决办法一般这种情况会出现在云服务主机上,因为内存小,云主机默认的swap空间为0,因此会出现内存,从而导致出错。因此需要给服务器配置swap空间具体步骤查看系统当前的分">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/macOS%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF.jpg">
-<meta property="og:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/mac%E6%A1%8C%E9%9D%A2.png">
-<meta property="og:updated_time" content="2018-10-14T10:23:02.028Z">
+<meta property="og:updated_time" content="2019-04-29T08:26:14.396Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="升级Mojave,出现安装macOS时发生错误或者无法验证macOS">
-<meta name="twitter:description" content="升级Mojave,出现安装macOS时发生错误的解决方案 解决方法:系统偏好设置-&amp;gt;网络-&amp;gt;高级-&amp;gt;DNS-&amp;gt;改成8.8.8.8………………..………………..本以为这样就可以了，然而等了半个小时后还是无法验证macOS，然后上网搜了一堆解决方案，各种设置，重启，重新下载，安全模式等，都是碰巧。从错误提示分析，无法验证xxx，估计网络不好或者信息不匹配，信息不匹配不容易找具">
-<meta name="twitter:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/macOS%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF.jpg">
+<meta name="twitter:title" content="Capistrano自动化部署时出现错误: SSHKit::Runner::ExecuteError: Exception while executing as xxx: rake exit status: 137的解决办法">
+<meta name="twitter:description" content="Capistrano自动化部署时进行静态编译时出现错误: SSHKit::Runner::ExecuteError: Exception while executing as xxx: rake exit status: 137的解决办法一般这种情况会出现在云服务主机上,因为内存小,云主机默认的swap空间为0,因此会出现内存,从而导致出错。因此需要给服务器配置swap空间具体步骤查看系统当前的分">
 
 
 
@@ -139,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="https://www.rubyc.cn/2018/10/14/升级Mojave-出现安装macOS时发生错误/"/>
+  <link rel="canonical" href="https://www.rubyc.cn/2019/04/28/Capistrano自动化部署时出现错误-SSHKit-Runner-ExecuteError-Exception-while-executing-as-xxx-rake-exit-status-137的解决办法/"/>
 
 
 
 
 
-  <title>升级Mojave,出现安装macOS时发生错误或者无法验证macOS | yuanchang</title>
+  <title>Capistrano自动化部署时出现错误: SSHKit::Runner::ExecuteError: Exception while executing as xxx: rake exit status: 137的解决办法 | yuanchang</title>
   
 
 
@@ -357,7 +354,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.rubyc.cn/2018/10/14/升级Mojave-出现安装macOS时发生错误/">
+    <link itemprop="mainEntityOfPage" href="https://www.rubyc.cn/2019/04/28/Capistrano自动化部署时出现错误-SSHKit-Runner-ExecuteError-Exception-while-executing-as-xxx-rake-exit-status-137的解决办法/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="苑畅">
@@ -374,7 +371,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">升级Mojave,出现安装macOS时发生错误或者无法验证macOS</h2>
+          <h2 class="post-title" itemprop="name headline">Capistrano自动化部署时出现错误: SSHKit::Runner::ExecuteError: Exception while executing as xxx: rake exit status: 137的解决办法</h2>
         
 
         <div class="post-meta">
@@ -386,8 +383,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-14T15:11:31+08:00">
-                2018-10-14
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-28T21:25:22+08:00">
+                2019-04-28
               </time>
             
 
@@ -402,8 +399,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-14T18:23:02+08:00">
-                2018-10-14
+              <time title="更新于" itemprop="dateModified" datetime="2019-04-29T16:26:14+08:00">
+                2019-04-29
               </time>
             
           </span>
@@ -417,8 +414,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/10/14/升级Mojave-出现安装macOS时发生错误/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2018/10/14/升级Mojave-出现安装macOS时发生错误/" itemprop="commentCount"></span>
+                <a href="/2019/04/28/Capistrano自动化部署时出现错误-SSHKit-Runner-ExecuteError-Exception-while-executing-as-xxx-rake-exit-status-137的解决办法/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/28/Capistrano自动化部署时出现错误-SSHKit-Runner-ExecuteError-Exception-while-executing-as-xxx-rake-exit-status-137的解决办法/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -445,7 +442,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  176
+                  254
                 </span>
               
 
@@ -482,8 +479,13 @@
       
 
       
-        <h3 id="升级Mojave-出现安装macOS时发生错误的解决方案"><a href="#升级Mojave-出现安装macOS时发生错误的解决方案" class="headerlink" title="升级Mojave,出现安装macOS时发生错误的解决方案"></a>升级Mojave,出现安装macOS时发生错误的解决方案</h3><p><img src="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/macOS%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF.jpg" alt="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/macOS%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF.jpg"></p>
-<h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法:"></a>解决方法:</h4><h4 id="系统偏好设置-gt-网络-gt-高级-gt-DNS-gt-改成8-8-8-8"><a href="#系统偏好设置-gt-网络-gt-高级-gt-DNS-gt-改成8-8-8-8" class="headerlink" title="系统偏好设置-&gt;网络-&gt;高级-&gt;DNS-&gt;改成8.8.8.8"></a>系统偏好设置-&gt;网络-&gt;高级-&gt;DNS-&gt;改成8.8.8.8</h4><h4 id="………………"><a href="#………………" class="headerlink" title="……………….."></a>………………..</h4><h4 id="………………-1"><a href="#………………-1" class="headerlink" title="……………….."></a>………………..</h4><h4 id="本以为这样就可以了，然而等了半个小时后还是无法验证macOS，然后上网搜了一堆解决方案，各种设置，重启，重新下载，安全模式等，都是碰巧。从错误提示分析，无法验证xxx，估计网络不好或者信息不匹配，信息不匹配不容易找具体原因，而网络不好估计并不是真正的网络不好，而是要科学上网。科学上网后再升级，一次就完美升级。"><a href="#本以为这样就可以了，然而等了半个小时后还是无法验证macOS，然后上网搜了一堆解决方案，各种设置，重启，重新下载，安全模式等，都是碰巧。从错误提示分析，无法验证xxx，估计网络不好或者信息不匹配，信息不匹配不容易找具体原因，而网络不好估计并不是真正的网络不好，而是要科学上网。科学上网后再升级，一次就完美升级。" class="headerlink" title="本以为这样就可以了，然而等了半个小时后还是无法验证macOS，然后上网搜了一堆解决方案，各种设置，重启，重新下载，安全模式等，都是碰巧。从错误提示分析，无法验证xxx，估计网络不好或者信息不匹配，信息不匹配不容易找具体原因，而网络不好估计并不是真正的网络不好，而是要科学上网。科学上网后再升级，一次就完美升级。"></a>本以为这样就可以了，然而等了半个小时后还是无法验证macOS，然后上网搜了一堆解决方案，各种设置，重启，重新下载，安全模式等，都是碰巧。从错误提示分析，无法验证xxx，估计网络不好或者信息不匹配，信息不匹配不容易找具体原因，而网络不好估计并不是真正的网络不好，而是要科学上网。科学上网后再升级，一次就完美升级。</h4><p><img src="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/mac%E6%A1%8C%E9%9D%A2.png" alt="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/mac%E6%A1%8C%E9%9D%A2.png"></p>
+        <h3 id="Capistrano自动化部署时进行静态编译时出现错误-SSHKit-Runner-ExecuteError-Exception-while-executing-as-xxx-rake-exit-status-137的解决办法"><a href="#Capistrano自动化部署时进行静态编译时出现错误-SSHKit-Runner-ExecuteError-Exception-while-executing-as-xxx-rake-exit-status-137的解决办法" class="headerlink" title="Capistrano自动化部署时进行静态编译时出现错误: SSHKit::Runner::ExecuteError: Exception while executing as xxx: rake exit status: 137的解决办法"></a>Capistrano自动化部署时进行静态编译时出现错误: SSHKit::Runner::ExecuteError: Exception while executing as xxx: rake exit status: 137的解决办法</h3><h3 id="一般这种情况会出现在云服务主机上-因为内存小-云主机默认的swap空间为0-因此会出现内存-从而导致出错。"><a href="#一般这种情况会出现在云服务主机上-因为内存小-云主机默认的swap空间为0-因此会出现内存-从而导致出错。" class="headerlink" title="一般这种情况会出现在云服务主机上,因为内存小,云主机默认的swap空间为0,因此会出现内存,从而导致出错。"></a>一般这种情况会出现在云服务主机上,因为内存小,云主机默认的swap空间为0,因此会出现内存,从而导致出错。</h3><h3 id="因此需要给服务器配置swap空间"><a href="#因此需要给服务器配置swap空间" class="headerlink" title="因此需要给服务器配置swap空间"></a>因此需要给服务器配置swap空间</h3><h3 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h3><h4 id="查看系统当前的分区情况"><a href="#查看系统当前的分区情况" class="headerlink" title="查看系统当前的分区情况"></a>查看系统当前的分区情况</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">free -m</span><br></pre></td></tr></table></figure>
+<h4 id="创建用于交换分区的文件-xxx-自定义文件夹名称-以下步骤中请保持一致-swap-为用户自定义目录xxx下名称为swap的文件-要保证这个目录已存在-比如创建一个2G的文件"><a href="#创建用于交换分区的文件-xxx-自定义文件夹名称-以下步骤中请保持一致-swap-为用户自定义目录xxx下名称为swap的文件-要保证这个目录已存在-比如创建一个2G的文件" class="headerlink" title="创建用于交换分区的文件 (/xxx(自定义文件夹名称,以下步骤中请保持一致)/swap 为用户自定义目录xxx下名称为swap的文件,要保证这个目录已存在),比如创建一个2G的文件"></a>创建用于交换分区的文件 (/xxx(自定义文件夹名称,以下步骤中请保持一致)/swap 为用户自定义目录xxx下名称为swap的文件,要保证这个目录已存在),比如创建一个2G的文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dd <span class="keyword">if</span>=/dev/zero of=/xxx/swap bs=2048 count=1048576</span><br></pre></td></tr></table></figure>
+<h4 id="把这个文件设置为交换分区文件"><a href="#把这个文件设置为交换分区文件" class="headerlink" title="把这个文件设置为交换分区文件"></a>把这个文件设置为交换分区文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkswap /xxx/swap</span><br></pre></td></tr></table></figure>
+<h4 id="修改文件权限为600"><a href="#修改文件权限为600" class="headerlink" title="修改文件权限为600"></a>修改文件权限为600</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod 600 /xxx/swap</span><br></pre></td></tr></table></figure>
+<h4 id="启用交换分区文件"><a href="#启用交换分区文件" class="headerlink" title="启用交换分区文件"></a>启用交换分区文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">swapon /xxx/swap</span><br></pre></td></tr></table></figure>
+<h4 id="若要想使开机时自启用，则需修改文件-etc-fstab-添加一行"><a href="#若要想使开机时自启用，则需修改文件-etc-fstab-添加一行" class="headerlink" title="若要想使开机时自启用，则需修改文件/etc/fstab 添加一行"></a>若要想使开机时自启用，则需修改文件/etc/fstab 添加一行</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/xxx/swap swap swap defaults 0 0</span><br></pre></td></tr></table></figure>
+<hr>
 
       
     </div>
@@ -533,7 +535,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://www.rubyc.cn/2018/10/14/升级Mojave-出现安装macOS时发生错误/" title="升级Mojave,出现安装macOS时发生错误或者无法验证macOS">https://www.rubyc.cn/2018/10/14/升级Mojave-出现安装macOS时发生错误/</a>
+    <a href="https://www.rubyc.cn/2019/04/28/Capistrano自动化部署时出现错误-SSHKit-Runner-ExecuteError-Exception-while-executing-as-xxx-rake-exit-status-137的解决办法/" title="Capistrano自动化部署时出现错误: SSHKit::Runner::ExecuteError: Exception while executing as xxx: rake exit status: 137的解决办法">https://www.rubyc.cn/2019/04/28/Capistrano自动化部署时出现错误-SSHKit-Runner-ExecuteError-Exception-while-executing-as-xxx-rake-exit-status-137的解决办法/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -548,7 +550,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Mojave-macOS升级-解决方案/" rel="tag"><i class="fa fa-tag"></i> Mojave macOS升级 解决方案</a>
+            <a href="/tags/Rails/" rel="tag"><i class="fa fa-tag"></i> Rails</a>
+          
+            <a href="/tags/Capistrano/" rel="tag"><i class="fa fa-tag"></i> Capistrano</a>
           
         </div>
       
@@ -576,8 +580,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/10/11/不蒜子404错误解决方案/" rel="next" title="hexo中不蒜子404错误解决方案">
-                <i class="fa fa-chevron-left"></i> hexo中不蒜子404错误解决方案
+              <a href="/2019/04/27/Rails项目出现ExecJS-RuntimeError-execjs-1的解决办法/" rel="next" title="Rails项目出现ExecJS::RuntimeError: (execjs):1的解决办法">
+                <i class="fa fa-chevron-left"></i> Rails项目出现ExecJS::RuntimeError: (execjs):1的解决办法
               </a>
             
           </div>
@@ -586,8 +590,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/10/14/Error-xcrun-error-invalid-active-developer-path-Library-Developer-CommandLineTools-missing-xcrun-at-Library-Developer-CommandLineTools-usr-bin-xcrun/" rel="prev" title="Error: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun">
-                Error: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun <i class="fa fa-chevron-right"></i>
+              <a href="/2019/04/29/Rails中使用SendCloud的邮件发送服务的配置/" rel="prev" title="Rails中使用SendCloud的邮件发送服务的配置">
+                Rails中使用SendCloud的邮件发送服务的配置 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -745,7 +749,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#升级Mojave-出现安装macOS时发生错误的解决方案"><span class="nav-number">1.</span> <span class="nav-text">升级Mojave,出现安装macOS时发生错误的解决方案</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#解决方法"><span class="nav-number">1.1.</span> <span class="nav-text">解决方法:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#系统偏好设置-gt-网络-gt-高级-gt-DNS-gt-改成8-8-8-8"><span class="nav-number">1.2.</span> <span class="nav-text">系统偏好设置-&gt;网络-&gt;高级-&gt;DNS-&gt;改成8.8.8.8</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#………………"><span class="nav-number">1.3.</span> <span class="nav-text">………………..</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#………………-1"><span class="nav-number">1.4.</span> <span class="nav-text">………………..</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#本以为这样就可以了，然而等了半个小时后还是无法验证macOS，然后上网搜了一堆解决方案，各种设置，重启，重新下载，安全模式等，都是碰巧。从错误提示分析，无法验证xxx，估计网络不好或者信息不匹配，信息不匹配不容易找具体原因，而网络不好估计并不是真正的网络不好，而是要科学上网。科学上网后再升级，一次就完美升级。"><span class="nav-number">1.5.</span> <span class="nav-text">本以为这样就可以了，然而等了半个小时后还是无法验证macOS，然后上网搜了一堆解决方案，各种设置，重启，重新下载，安全模式等，都是碰巧。从错误提示分析，无法验证xxx，估计网络不好或者信息不匹配，信息不匹配不容易找具体原因，而网络不好估计并不是真正的网络不好，而是要科学上网。科学上网后再升级，一次就完美升级。</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Capistrano自动化部署时进行静态编译时出现错误-SSHKit-Runner-ExecuteError-Exception-while-executing-as-xxx-rake-exit-status-137的解决办法"><span class="nav-number">1.</span> <span class="nav-text">Capistrano自动化部署时进行静态编译时出现错误: SSHKit::Runner::ExecuteError: Exception while executing as xxx: rake exit status: 137的解决办法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#一般这种情况会出现在云服务主机上-因为内存小-云主机默认的swap空间为0-因此会出现内存-从而导致出错。"><span class="nav-number">2.</span> <span class="nav-text">一般这种情况会出现在云服务主机上,因为内存小,云主机默认的swap空间为0,因此会出现内存,从而导致出错。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#因此需要给服务器配置swap空间"><span class="nav-number">3.</span> <span class="nav-text">因此需要给服务器配置swap空间</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#具体步骤"><span class="nav-number">4.</span> <span class="nav-text">具体步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#查看系统当前的分区情况"><span class="nav-number">4.1.</span> <span class="nav-text">查看系统当前的分区情况</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#创建用于交换分区的文件-xxx-自定义文件夹名称-以下步骤中请保持一致-swap-为用户自定义目录xxx下名称为swap的文件-要保证这个目录已存在-比如创建一个2G的文件"><span class="nav-number">4.2.</span> <span class="nav-text">创建用于交换分区的文件 (/xxx(自定义文件夹名称,以下步骤中请保持一致)/swap 为用户自定义目录xxx下名称为swap的文件,要保证这个目录已存在),比如创建一个2G的文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#把这个文件设置为交换分区文件"><span class="nav-number">4.3.</span> <span class="nav-text">把这个文件设置为交换分区文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#修改文件权限为600"><span class="nav-number">4.4.</span> <span class="nav-text">修改文件权限为600</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#启用交换分区文件"><span class="nav-number">4.5.</span> <span class="nav-text">启用交换分区文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#若要想使开机时自启用，则需修改文件-etc-fstab-添加一行"><span class="nav-number">4.6.</span> <span class="nav-text">若要想使开机时自启用，则需修改文件/etc/fstab 添加一行</span></a></li></ol></li></ol></div>
             
 
           </div>

@@ -6,6 +6,15 @@
     <content type="text"><![CDATA[Sendloud的官网 http://sendcloud.net/将生成的API_USER和API_KEY信息保存下来。如果忘记 API_KEY，可以点击API_KEY生成一个新的 在本机编辑 config/environments/production.rb123config.action_mailer.default_url_options = &#123; :host =&gt; '你的域名，暂时填IP地址' &#125;config.action_mailer.delivery_method = :smtpconfig.action_mailer.smtp_settings = config_for(:email).symbolize_keys 在config目录下创建email.yml,把上图中的配置信息拿过来填写在下面12345678production: address: "smtpcloud.sohu.com" port: 25 domain: "XXX.sendcloud.org" authentication: "login" user_name: "XXX_test_XXX" password: "keyXXXXX" enable_starttls_auto: true 重启服务]]></content>
   </entry>
   <entry>
+    <title><![CDATA[Capistrano自动化部署时出现错误: SSHKit::Runner::ExecuteError: Exception while executing as xxx: rake exit status: 137的解决办法]]></title>
+    <url>%2F2019%2F04%2F28%2FCapistrano%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E6%97%B6%E5%87%BA%E7%8E%B0%E9%94%99%E8%AF%AF-SSHKit-Runner-ExecuteError-Exception-while-executing-as-xxx-rake-exit-status-137%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[Capistrano自动化部署时进行静态编译时出现错误: SSHKit::Runner::ExecuteError: Exception while executing as xxx: rake exit status: 137的解决办法一般这种情况会出现在云服务主机上,因为内存小,云主机默认的swap空间为0,因此会出现内存,从而导致出错。因此需要给服务器配置swap空间具体步骤查看系统当前的分区情况1free -m 创建用于交换分区的文件 (/xxx(自定义文件夹名称,以下步骤中请保持一致)/swap 为用户自定义目录xxx下名称为swap的文件,要保证这个目录已存在),比如创建一个2G的文件1dd if=/dev/zero of=/xxx/swap bs=2048 count=1048576 把这个文件设置为交换分区文件1mkswap /xxx/swap 修改文件权限为6001chmod 600 /xxx/swap 启用交换分区文件1swapon /xxx/swap 若要想使开机时自启用，则需修改文件/etc/fstab 添加一行1/xxx/swap swap swap defaults 0 0]]></content>
+      <tags>
+        <tag>Rails</tag>
+        <tag>Capistrano</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Rails项目出现ExecJS::RuntimeError: (execjs):1的解决办法]]></title>
     <url>%2F2019%2F04%2F27%2FRails%E9%A1%B9%E7%9B%AE%E5%87%BA%E7%8E%B0ExecJS-RuntimeError-execjs-1%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%2F</url>
     <content type="text"><![CDATA[今天在使用Capistrano自动化部署rails项目时出现这样的错误“ExecJS::RuntimeError: (execjs):1”经过一番百度与谷歌,Stack Overflow后找到解决办法1.确保服务器主机上已安装nodejs1sudo apt-get install nodejs 2.在Gemfile文件中加入1gem 'therubyracer' 3.bundle安装1bundle install 4.再次部署1cap production deploy]]></content>

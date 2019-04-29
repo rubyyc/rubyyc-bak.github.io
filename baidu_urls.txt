@@ -1,4 +1,5 @@
 https://www.rubyc.cn/2019/04/29/Rails中使用SendCloud的邮件发送服务的配置/
+https://www.rubyc.cn/2019/04/28/Capistrano自动化部署时出现错误-SSHKit-Runner-ExecuteError-Exception-while-executing-as-xxx-rake-exit-status-137的解决办法/
 https://www.rubyc.cn/2019/04/27/Rails项目出现ExecJS-RuntimeError-execjs-1的解决办法/
 https://www.rubyc.cn/2019/04/16/Failed-to-manipulate-with-MiniMagick-maybe-it-is-not-an-image-Original-Error-You-must-have-Image/
 https://www.rubyc.cn/2019/04/16/使用carrierwave报错-undefined-method-avatar-will-change-的解决办法/
