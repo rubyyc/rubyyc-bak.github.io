@@ -101,12 +101,12 @@
 <meta property="og:site_name" content="yuanchang">
 <meta property="og:description" content="Sendloud的官网 http://sendcloud.net/将生成的API_USER和API_KEY信息保存下来。如果忘记 API_KEY，可以点击API_KEY生成一个新的 在本机编辑 config/environments/production.rb123config.action_mailer.default_url_options = &amp;#123; :host =&amp;gt; &apos;你的域名">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://www.rubyc.cn/2019/04/29/Rails中使用SendCloud的邮件发送服务的配置/Sendloud">
-<meta property="og:updated_time" content="2019-04-29T08:23:35.591Z">
+<meta property="og:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/sendcloud.jpg">
+<meta property="og:updated_time" content="2019-04-29T08:28:57.725Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Rails中使用SendCloud的邮件发送服务的配置">
 <meta name="twitter:description" content="Sendloud的官网 http://sendcloud.net/将生成的API_USER和API_KEY信息保存下来。如果忘记 API_KEY，可以点击API_KEY生成一个新的 在本机编辑 config/environments/production.rb123config.action_mailer.default_url_options = &amp;#123; :host =&amp;gt; &apos;你的域名">
-<meta name="twitter:image" content="https://www.rubyc.cn/2019/04/29/Rails中使用SendCloud的邮件发送服务的配置/Sendloud">
+<meta name="twitter:image" content="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/sendcloud.jpg">
 
 
 
@@ -401,7 +401,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-04-29T16:23:35+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-04-29T16:28:57+08:00">
                 2019-04-29
               </time>
             
@@ -481,7 +481,7 @@
       
 
       
-        <h4 id="Sendloud的官网-http-sendcloud-net"><a href="#Sendloud的官网-http-sendcloud-net" class="headerlink" title="Sendloud的官网 http://sendcloud.net/"></a>Sendloud的官网 <a href="http://sendcloud.net/" target="_blank" rel="noopener">http://sendcloud.net/</a></h4><h4 id="将生成的API-USER和API-KEY信息保存下来。如果忘记-API-KEY，可以点击API-KEY生成一个新的"><a href="#将生成的API-USER和API-KEY信息保存下来。如果忘记-API-KEY，可以点击API-KEY生成一个新的" class="headerlink" title="将生成的API_USER和API_KEY信息保存下来。如果忘记 API_KEY，可以点击API_KEY生成一个新的"></a>将生成的API_USER和API_KEY信息保存下来。如果忘记 API_KEY，可以点击API_KEY生成一个新的</h4><p><img src="Sendloud" alt="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/sendcloud.jpg"></p>
+        <h4 id="Sendloud的官网-http-sendcloud-net"><a href="#Sendloud的官网-http-sendcloud-net" class="headerlink" title="Sendloud的官网 http://sendcloud.net/"></a>Sendloud的官网 <a href="http://sendcloud.net/" target="_blank" rel="noopener">http://sendcloud.net/</a></h4><h4 id="将生成的API-USER和API-KEY信息保存下来。如果忘记-API-KEY，可以点击API-KEY生成一个新的"><a href="#将生成的API-USER和API-KEY信息保存下来。如果忘记-API-KEY，可以点击API-KEY生成一个新的" class="headerlink" title="将生成的API_USER和API_KEY信息保存下来。如果忘记 API_KEY，可以点击API_KEY生成一个新的"></a>将生成的API_USER和API_KEY信息保存下来。如果忘记 API_KEY，可以点击API_KEY生成一个新的</h4><p><img src="https://rubyc-1251958994.cos.ap-shanghai.myqcloud.com/blog/sendcloud.jpg" alt="Sendloud"></p>
 <h3 id="在本机编辑-config-environments-production-rb"><a href="#在本机编辑-config-environments-production-rb" class="headerlink" title="在本机编辑 config/environments/production.rb"></a>在本机编辑 config/environments/production.rb</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">config<span class="selector-class">.action_mailer</span><span class="selector-class">.default_url_options</span> = &#123; :host =&gt; <span class="string">'你的域名，暂时填IP地址'</span> &#125;</span><br><span class="line">config<span class="selector-class">.action_mailer</span><span class="selector-class">.delivery_method</span> = :smtp</span><br><span class="line">config<span class="selector-class">.action_mailer</span><span class="selector-class">.smtp_settings</span> = config_for(:email).symbolize_keys</span><br></pre></td></tr></table></figure>
 <h3 id="在config目录下创建email-yml-把上图中的配置信息拿过来填写在下面"><a href="#在config目录下创建email-yml-把上图中的配置信息拿过来填写在下面" class="headerlink" title="在config目录下创建email.yml,把上图中的配置信息拿过来填写在下面"></a>在config目录下创建email.yml,把上图中的配置信息拿过来填写在下面</h3><figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">production:</span></span><br><span class="line"><span class="symbol">  address:</span> <span class="string">"smtpcloud.sohu.com"</span></span><br><span class="line"><span class="symbol">  port:</span> <span class="number">25</span></span><br><span class="line"><span class="symbol">  domain:</span> <span class="string">"XXX.sendcloud.org"</span></span><br><span class="line"><span class="symbol">  authentication:</span> <span class="string">"login"</span></span><br><span class="line"><span class="symbol">  user_name:</span> <span class="string">"XXX_test_XXX"</span></span><br><span class="line"><span class="symbol">  password:</span> <span class="string">"keyXXXXX"</span></span><br><span class="line"><span class="symbol">  enable_starttls_auto:</span> true</span><br></pre></td></tr></table></figure>
 <h3 id="重启服务"><a href="#重启服务" class="headerlink" title="重启服务"></a>重启服务</h3>
