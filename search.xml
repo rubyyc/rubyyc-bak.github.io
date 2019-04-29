@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Rails中使用SendCloud的邮件发送服务的配置]]></title>
+    <url>%2F2019%2F04%2F29%2FRails%E4%B8%AD%E4%BD%BF%E7%94%A8SendCloud%E7%9A%84%E9%82%AE%E4%BB%B6%E5%8F%91%E9%80%81%E6%9C%8D%E5%8A%A1%E7%9A%84%E9%85%8D%E7%BD%AE%2F</url>
+    <content type="text"><![CDATA[Sendloud的官网 http://sendcloud.net/将生成的API_USER和API_KEY信息保存下来。如果忘记 API_KEY，可以点击API_KEY生成一个新的 在本机编辑 config/environments/production.rb123config.action_mailer.default_url_options = &#123; :host =&gt; '你的域名，暂时填IP地址' &#125;config.action_mailer.delivery_method = :smtpconfig.action_mailer.smtp_settings = config_for(:email).symbolize_keys 在config目录下创建email.yml,把上图中的配置信息拿过来填写在下面12345678production: address: "smtpcloud.sohu.com" port: 25 domain: "XXX.sendcloud.org" authentication: "login" user_name: "XXX_test_XXX" password: "keyXXXXX" enable_starttls_auto: true 重启服务]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Rails项目出现ExecJS::RuntimeError: (execjs):1的解决办法]]></title>
     <url>%2F2019%2F04%2F27%2FRails%E9%A1%B9%E7%9B%AE%E5%87%BA%E7%8E%B0ExecJS-RuntimeError-execjs-1%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%2F</url>
     <content type="text"><![CDATA[今天在使用Capistrano自动化部署rails项目时出现这样的错误“ExecJS::RuntimeError: (execjs):1”经过一番百度与谷歌,Stack Overflow后找到解决办法1.确保服务器主机上已安装nodejs1sudo apt-get install nodejs 2.在Gemfile文件中加入1gem 'therubyracer' 3.bundle安装1bundle install 4.再次部署1cap production deploy]]></content>
